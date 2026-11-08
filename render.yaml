@@ -21,7 +21,9 @@ services:
         value: "30"
       - key: SEED_ON_STARTUP
         value: "true"
+      - key: MONGODB_PASSWORD
+        sync: false
       - key: AI_PROVIDER
-        value: anthropic
+        value: gemini
       - key: AI_API_KEY
         sync: false
