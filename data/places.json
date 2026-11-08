@@ -1,0 +1,7021 @@
+{
+ "meta": {
+  "name": "AI-Powered Personalized Travel Itinerary Planner - sample dataset (India)",
+  "currency": "INR",
+  "coverage": "All 28 states and 8 union territories, with selected major destinations in each. Not exhaustive.",
+  "notice": "SAMPLE DATA. Costs and visit durations are rough estimates, coordinates are approximate (null when unknown), ratings are intentionally null. Nothing is live or officially verified. Check opening hours, tickets and access rules before travelling.",
+  "version": 2
+ },
+ "places": [
+  {
+   "name": "Amber Fort",
+   "city": "Jaipur",
+   "state": "Rajasthan",
+   "categories": [
+    "history",
+    "culture",
+    "architecture"
+   ],
+   "description": "A historic hilltop fort known for its architecture and scenic surroundings.",
+   "cost": 100,
+   "cost_is_estimate": true,
+   "hours": 2.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 26.9855,
+   "longitude": 75.8513,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "City Palace",
+   "city": "Jaipur",
+   "state": "Rajasthan",
+   "categories": [
+    "history",
+    "culture",
+    "museums"
+   ],
+   "description": "A royal palace complex with courtyards, galleries and museum collections in the old city.",
+   "cost": 200,
+   "cost_is_estimate": true,
+   "hours": 2,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 26.9258,
+   "longitude": 75.8237,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Hawa Mahal",
+   "city": "Jaipur",
+   "state": "Rajasthan",
+   "categories": [
+    "history",
+    "culture",
+    "architecture"
+   ],
+   "description": "A landmark palace facade with many small windows, best known as a photo stop in the old city.",
+   "cost": 50,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 26.9239,
+   "longitude": 75.8267,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Jantar Mantar",
+   "city": "Jaipur",
+   "state": "Rajasthan",
+   "categories": [
+    "history",
+    "museums",
+    "culture"
+   ],
+   "description": "An open-air collection of large astronomical instruments built for observing the sky.",
+   "cost": 50,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 26.9247,
+   "longitude": 75.8246,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Jal Mahal",
+   "city": "Jaipur",
+   "state": "Rajasthan",
+   "categories": [
+    "nature",
+    "culture"
+   ],
+   "description": "A palace set in a lake, usually enjoyed as a scenic viewpoint from the lakeside.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 26.9535,
+   "longitude": 75.8462,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Albert Hall Museum",
+   "city": "Jaipur",
+   "state": "Rajasthan",
+   "categories": [
+    "museums",
+    "culture",
+    "history"
+   ],
+   "description": "A museum in a heritage building displaying art, artefacts and regional crafts.",
+   "cost": 40,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 26.9116,
+   "longitude": 75.8195,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Chokhi Dhani",
+   "city": "Jaipur",
+   "state": "Rajasthan",
+   "categories": [
+    "food",
+    "culture",
+    "shopping"
+   ],
+   "description": "An ethnic village-style resort offering traditional food, folk performances and handicraft stalls.",
+   "cost": 800,
+   "cost_is_estimate": true,
+   "hours": 3,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": null,
+   "longitude": null,
+   "coordinates_approximate": false,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "City Palace Udaipur",
+   "city": "Udaipur",
+   "state": "Rajasthan",
+   "categories": [
+    "history",
+    "culture",
+    "museums"
+   ],
+   "description": "A large palace complex above the lake with museum sections and city views.",
+   "cost": 300,
+   "cost_is_estimate": true,
+   "hours": 2,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 24.576,
+   "longitude": 73.683,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Lake Pichola",
+   "city": "Udaipur",
+   "state": "Rajasthan",
+   "categories": [
+    "nature",
+    "culture"
+   ],
+   "description": "A scenic lake in the old city, often explored by boat.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 24.572,
+   "longitude": 73.679,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Jagdish Temple",
+   "city": "Udaipur",
+   "state": "Rajasthan",
+   "categories": [
+    "religious",
+    "architecture"
+   ],
+   "description": "A prominent temple in the old city with detailed carved architecture.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 24.58,
+   "longitude": 73.684,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Saheliyon ki Bari",
+   "city": "Udaipur",
+   "state": "Rajasthan",
+   "categories": [
+    "nature",
+    "culture"
+   ],
+   "description": "A landscaped garden with fountains and lotus pools.",
+   "cost": 50,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 24.598,
+   "longitude": 73.687,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Fateh Sagar Lake",
+   "city": "Udaipur",
+   "state": "Rajasthan",
+   "categories": [
+    "nature"
+   ],
+   "description": "A popular lake for evening walks and sunset views.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 24.598,
+   "longitude": 73.672,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Mehrangarh Fort",
+   "city": "Jodhpur",
+   "state": "Rajasthan",
+   "categories": [
+    "history",
+    "culture",
+    "architecture",
+    "museums"
+   ],
+   "description": "A massive hilltop fort with a museum and wide views over the city.",
+   "cost": 600,
+   "cost_is_estimate": true,
+   "hours": 3,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 26.298,
+   "longitude": 73.018,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Jaswant Thada",
+   "city": "Jodhpur",
+   "state": "Rajasthan",
+   "categories": [
+    "history",
+    "architecture"
+   ],
+   "description": "A marble memorial near the fort known for its white domes.",
+   "cost": 50,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 26.301,
+   "longitude": 73.019,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Umaid Bhawan Palace",
+   "city": "Jodhpur",
+   "state": "Rajasthan",
+   "categories": [
+    "history",
+    "architecture",
+    "museums"
+   ],
+   "description": "A large palace partly open to visitors, with a small museum.",
+   "cost": 100,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 26.281,
+   "longitude": 73.048,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Clock Tower and Sardar Market",
+   "city": "Jodhpur",
+   "state": "Rajasthan",
+   "categories": [
+    "shopping",
+    "food",
+    "culture"
+   ],
+   "description": "A busy old-city market for spices, textiles and local snacks.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 2,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 26.295,
+   "longitude": 73.023,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Jaisalmer Fort",
+   "city": "Jaisalmer",
+   "state": "Rajasthan",
+   "categories": [
+    "history",
+    "culture",
+    "architecture"
+   ],
+   "description": "A living fort in the desert city with shops, homes and temples inside.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 2.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 26.9125,
+   "longitude": 70.913,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Patwon Ki Haveli",
+   "city": "Jaisalmer",
+   "state": "Rajasthan",
+   "categories": [
+    "history",
+    "architecture",
+    "museums"
+   ],
+   "description": "A cluster of ornate merchant mansions in the old city.",
+   "cost": 100,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 26.915,
+   "longitude": 70.912,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Sam Sand Dunes",
+   "city": "Jaisalmer",
+   "state": "Rajasthan",
+   "categories": [
+    "adventure",
+    "nature"
+   ],
+   "description": "Desert dunes known for camel rides and sunset views.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 3,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 26.84,
+   "longitude": 70.51,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Gadisar Lake",
+   "city": "Jaisalmer",
+   "state": "Rajasthan",
+   "categories": [
+    "nature",
+    "history"
+   ],
+   "description": "A historic water tank surrounded by small temples and shrines.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 26.906,
+   "longitude": 70.914,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Brahma Temple",
+   "city": "Pushkar",
+   "state": "Rajasthan",
+   "categories": [
+    "religious"
+   ],
+   "description": "A well-known temple dedicated to Brahma.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 26.489,
+   "longitude": 74.553,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Pushkar Lake",
+   "city": "Pushkar",
+   "state": "Rajasthan",
+   "categories": [
+    "religious",
+    "nature"
+   ],
+   "description": "A sacred lake surrounded by ghats and temples.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 26.488,
+   "longitude": 74.551,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Savitri Mata Temple",
+   "city": "Pushkar",
+   "state": "Rajasthan",
+   "categories": [
+    "religious",
+    "nature"
+   ],
+   "description": "A hilltop temple reached by steps or ropeway with views over the town.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 2,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 26.487,
+   "longitude": 74.56,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Pushkar Bazaar",
+   "city": "Pushkar",
+   "state": "Rajasthan",
+   "categories": [
+    "shopping",
+    "food"
+   ],
+   "description": "A busy market street for handicrafts, clothing and snacks.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 2,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": null,
+   "longitude": null,
+   "coordinates_approximate": false,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Ranthambore National Park",
+   "city": "Ranthambore",
+   "state": "Rajasthan",
+   "categories": [
+    "wildlife",
+    "nature",
+    "adventure"
+   ],
+   "description": "A tiger reserve visited on guided jeep or canter safaris.",
+   "cost": 1500,
+   "cost_is_estimate": true,
+   "hours": 3.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 26.017,
+   "longitude": 76.502,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Ranthambore Fort",
+   "city": "Ranthambore",
+   "state": "Rajasthan",
+   "categories": [
+    "history",
+    "architecture"
+   ],
+   "description": "An old hill fort inside the park area with ruins and viewpoints.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 2,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 26.02,
+   "longitude": 76.459,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Padam Talao",
+   "city": "Ranthambore",
+   "state": "Rajasthan",
+   "categories": [
+    "nature",
+    "wildlife"
+   ],
+   "description": "A lake inside the park where wildlife is often spotted.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": null,
+   "longitude": null,
+   "coordinates_approximate": false,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Red Fort",
+   "city": "Delhi",
+   "state": "Delhi",
+   "categories": [
+    "history",
+    "culture",
+    "architecture"
+   ],
+   "description": "A large Mughal-era fort complex in Old Delhi with palaces, halls and gardens.",
+   "cost": 35,
+   "cost_is_estimate": true,
+   "hours": 2,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 28.6562,
+   "longitude": 77.241,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "India Gate",
+   "city": "Delhi",
+   "state": "Delhi",
+   "categories": [
+    "history",
+    "culture"
+   ],
+   "description": "A war memorial arch surrounded by lawns, popular for evening walks.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 28.6129,
+   "longitude": 77.2295,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "National Museum",
+   "city": "Delhi",
+   "state": "Delhi",
+   "categories": [
+    "museums",
+    "history",
+    "culture"
+   ],
+   "description": "A large museum with collections covering art, archaeology and heritage across many periods.",
+   "cost": 20,
+   "cost_is_estimate": true,
+   "hours": 2,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 28.6117,
+   "longitude": 77.2194,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Lotus Temple",
+   "city": "Delhi",
+   "state": "Delhi",
+   "categories": [
+    "religious",
+    "culture",
+    "architecture"
+   ],
+   "description": "A flower-shaped house of worship open to visitors of all backgrounds, set in landscaped grounds.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 28.5535,
+   "longitude": 77.2588,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Chandni Chowk",
+   "city": "Delhi",
+   "state": "Delhi",
+   "categories": [
+    "food",
+    "shopping",
+    "culture",
+    "history"
+   ],
+   "description": "A historic market street in Old Delhi known for street food, spices, textiles and busy lanes.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 2.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 28.6506,
+   "longitude": 77.2303,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Qutub Minar",
+   "city": "Delhi",
+   "state": "Delhi",
+   "categories": [
+    "history",
+    "culture",
+    "architecture"
+   ],
+   "description": "A tall medieval minaret within an archaeological complex of ruins and monuments.",
+   "cost": 35,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 28.5245,
+   "longitude": 77.1855,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Upper Lake",
+   "city": "Bhopal",
+   "state": "Madhya Pradesh",
+   "categories": [
+    "nature",
+    "adventure",
+    "culture"
+   ],
+   "description": "A large lake at the heart of the city with lakeside promenades and boating options.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 2,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 23.256,
+   "longitude": 77.335,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Van Vihar National Park",
+   "city": "Bhopal",
+   "state": "Madhya Pradesh",
+   "categories": [
+    "wildlife",
+    "nature"
+   ],
+   "description": "A protected park beside the lake with native wildlife and forest walking areas.",
+   "cost": 50,
+   "cost_is_estimate": true,
+   "hours": 2.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 23.242,
+   "longitude": 77.37,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Tribal Museum",
+   "city": "Bhopal",
+   "state": "Madhya Pradesh",
+   "categories": [
+    "museums",
+    "culture"
+   ],
+   "description": "A museum presenting the art, living traditions and heritage of tribal communities of the region.",
+   "cost": 50,
+   "cost_is_estimate": true,
+   "hours": 2,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": null,
+   "longitude": null,
+   "coordinates_approximate": false,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Taj-ul-Masajid",
+   "city": "Bhopal",
+   "state": "Madhya Pradesh",
+   "categories": [
+    "religious",
+    "history",
+    "architecture"
+   ],
+   "description": "One of the large mosques in India, notable for its grand scale and architecture.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": null,
+   "longitude": null,
+   "coordinates_approximate": false,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Indira Gandhi Rashtriya Manav Sangrahalaya",
+   "city": "Bhopal",
+   "state": "Madhya Pradesh",
+   "categories": [
+    "museums",
+    "culture",
+    "nature"
+   ],
+   "description": "A national museum of humankind with indoor galleries and open-air exhibits on cultures and lifestyles.",
+   "cost": 30,
+   "cost_is_estimate": true,
+   "hours": 2.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": null,
+   "longitude": null,
+   "coordinates_approximate": false,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Western Group of Temples",
+   "city": "Khajuraho",
+   "state": "Madhya Pradesh",
+   "categories": [
+    "history",
+    "culture",
+    "architecture",
+    "religious"
+   ],
+   "description": "A group of medieval temples known for detailed stone sculpture.",
+   "cost": 40,
+   "cost_is_estimate": true,
+   "hours": 2.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 24.8523,
+   "longitude": 79.9199,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Lakshmana Temple",
+   "city": "Khajuraho",
+   "state": "Madhya Pradesh",
+   "categories": [
+    "history",
+    "architecture",
+    "religious"
+   ],
+   "description": "A well-preserved temple within the temple complex area.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 24.852,
+   "longitude": 79.921,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Khajuraho Archaeological Museum",
+   "city": "Khajuraho",
+   "state": "Madhya Pradesh",
+   "categories": [
+    "museums",
+    "history"
+   ],
+   "description": "A small museum with sculptures recovered from the region.",
+   "cost": 10,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": null,
+   "longitude": null,
+   "coordinates_approximate": false,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Raneh Falls",
+   "city": "Khajuraho",
+   "state": "Madhya Pradesh",
+   "categories": [
+    "nature"
+   ],
+   "description": "A scenic gorge and waterfall area outside the town.",
+   "cost": 50,
+   "cost_is_estimate": true,
+   "hours": 2,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 24.91,
+   "longitude": 80.02,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Mahakaleshwar Temple",
+   "city": "Ujjain",
+   "state": "Madhya Pradesh",
+   "categories": [
+    "religious",
+    "culture"
+   ],
+   "description": "A major Shiva temple and a key pilgrimage stop in the city.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 2,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 23.1829,
+   "longitude": 75.7683,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Ram Ghat",
+   "city": "Ujjain",
+   "state": "Madhya Pradesh",
+   "categories": [
+    "religious",
+    "culture"
+   ],
+   "description": "A river ghat on the Shipra where evening rituals are held.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 23.181,
+   "longitude": 75.768,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Harsiddhi Temple",
+   "city": "Ujjain",
+   "state": "Madhya Pradesh",
+   "categories": [
+    "religious"
+   ],
+   "description": "A temple honoured as a Shakti shrine near the main temple area.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 23.185,
+   "longitude": 75.767,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Kal Bhairav Temple",
+   "city": "Ujjain",
+   "state": "Madhya Pradesh",
+   "categories": [
+    "religious"
+   ],
+   "description": "A temple dedicated to Kal Bhairav, popular with pilgrims.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": null,
+   "longitude": null,
+   "coordinates_approximate": false,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Rajwada Palace",
+   "city": "Indore",
+   "state": "Madhya Pradesh",
+   "categories": [
+    "history",
+    "architecture"
+   ],
+   "description": "A historic palace in the heart of the old city.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 22.7185,
+   "longitude": 75.8556,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Lal Bagh Palace",
+   "city": "Indore",
+   "state": "Madhya Pradesh",
+   "categories": [
+    "history",
+    "museums",
+    "architecture"
+   ],
+   "description": "A grand palace with a museum area and gardens.",
+   "cost": 100,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 22.702,
+   "longitude": 75.851,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Sarafa Bazaar",
+   "city": "Indore",
+   "state": "Madhya Pradesh",
+   "categories": [
+    "food",
+    "shopping"
+   ],
+   "description": "A night street-food market famous locally for snacks and sweets.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 2,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 22.718,
+   "longitude": 75.855,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Khajrana Ganesh Temple",
+   "city": "Indore",
+   "state": "Madhya Pradesh",
+   "categories": [
+    "religious"
+   ],
+   "description": "A popular Ganesh temple visited by many locals.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 22.733,
+   "longitude": 75.9,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Gateway of India",
+   "city": "Mumbai",
+   "state": "Maharashtra",
+   "categories": [
+    "history",
+    "architecture",
+    "culture"
+   ],
+   "description": "A waterfront arch monument and a common starting point for exploring south Mumbai.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 18.922,
+   "longitude": 72.8347,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Marine Drive",
+   "city": "Mumbai",
+   "state": "Maharashtra",
+   "categories": [
+    "nature",
+    "culture"
+   ],
+   "description": "A curved seafront promenade, popular for evening walks.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 18.944,
+   "longitude": 72.823,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Elephanta Caves",
+   "city": "Mumbai",
+   "state": "Maharashtra",
+   "categories": [
+    "history",
+    "culture",
+    "architecture"
+   ],
+   "description": "Rock-cut cave temples on an island reached by ferry.",
+   "cost": 40,
+   "cost_is_estimate": true,
+   "hours": 4,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 18.9633,
+   "longitude": 72.9315,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Chhatrapati Shivaji Terminus",
+   "city": "Mumbai",
+   "state": "Maharashtra",
+   "categories": [
+    "history",
+    "architecture"
+   ],
+   "description": "A grand railway station building known for its Victorian Gothic design.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 18.9398,
+   "longitude": 72.8355,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Chhatrapati Shivaji Maharaj Vastu Sangrahalaya",
+   "city": "Mumbai",
+   "state": "Maharashtra",
+   "categories": [
+    "museums",
+    "history",
+    "culture"
+   ],
+   "description": "A large museum of art, archaeology and natural history.",
+   "cost": 100,
+   "cost_is_estimate": true,
+   "hours": 2,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 18.9269,
+   "longitude": 72.8326,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Siddhivinayak Temple",
+   "city": "Mumbai",
+   "state": "Maharashtra",
+   "categories": [
+    "religious"
+   ],
+   "description": "A well-known Ganesh temple in central Mumbai.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 19.017,
+   "longitude": 72.83,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Shaniwar Wada",
+   "city": "Pune",
+   "state": "Maharashtra",
+   "categories": [
+    "history",
+    "architecture"
+   ],
+   "description": "The remains of a historic fort-palace in the old city.",
+   "cost": 25,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 18.5195,
+   "longitude": 73.8553,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Aga Khan Palace",
+   "city": "Pune",
+   "state": "Maharashtra",
+   "categories": [
+    "history",
+    "museums"
+   ],
+   "description": "A palace with a memorial museum set in landscaped grounds.",
+   "cost": 25,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 18.553,
+   "longitude": 73.902,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Sinhagad Fort",
+   "city": "Pune",
+   "state": "Maharashtra",
+   "categories": [
+    "history",
+    "adventure",
+    "nature"
+   ],
+   "description": "A hill fort popular for treks and views.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 3,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 18.366,
+   "longitude": 73.755,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Dagdusheth Halwai Ganpati Temple",
+   "city": "Pune",
+   "state": "Maharashtra",
+   "categories": [
+    "religious"
+   ],
+   "description": "A busy Ganesh temple in the city centre.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 18.516,
+   "longitude": 73.856,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Ajanta Caves",
+   "city": "Aurangabad",
+   "state": "Maharashtra",
+   "categories": [
+    "history",
+    "culture",
+    "architecture",
+    "museums"
+   ],
+   "description": "Rock-cut cave monasteries known for ancient paintings and sculpture.",
+   "cost": 40,
+   "cost_is_estimate": true,
+   "hours": 4,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 20.5519,
+   "longitude": 75.7033,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Ellora Caves",
+   "city": "Aurangabad",
+   "state": "Maharashtra",
+   "categories": [
+    "history",
+    "culture",
+    "architecture",
+    "religious"
+   ],
+   "description": "A large complex of rock-cut temples and monasteries.",
+   "cost": 40,
+   "cost_is_estimate": true,
+   "hours": 4,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 20.0258,
+   "longitude": 75.178,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Bibi Ka Maqbara",
+   "city": "Aurangabad",
+   "state": "Maharashtra",
+   "categories": [
+    "history",
+    "architecture"
+   ],
+   "description": "A Mughal-era tomb often compared to the Taj Mahal in style.",
+   "cost": 25,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 19.901,
+   "longitude": 75.32,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Daulatabad Fort",
+   "city": "Aurangabad",
+   "state": "Maharashtra",
+   "categories": [
+    "history",
+    "architecture",
+    "adventure"
+   ],
+   "description": "A hill fort with winding passages and steep climbs.",
+   "cost": 25,
+   "cost_is_estimate": true,
+   "hours": 2.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 19.944,
+   "longitude": 75.213,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Trimbakeshwar Temple",
+   "city": "Nashik",
+   "state": "Maharashtra",
+   "categories": [
+    "religious",
+    "culture"
+   ],
+   "description": "An important Shiva temple near the source of the Godavari.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 2,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 19.932,
+   "longitude": 73.531,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Panchavati",
+   "city": "Nashik",
+   "state": "Maharashtra",
+   "categories": [
+    "religious",
+    "culture"
+   ],
+   "description": "A riverside area with temples and ghats.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 20.006,
+   "longitude": 73.79,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Sula Vineyards",
+   "city": "Nashik",
+   "state": "Maharashtra",
+   "categories": [
+    "food",
+    "nature",
+    "culture"
+   ],
+   "description": "A vineyard that offers tours and tastings.",
+   "cost": 400,
+   "cost_is_estimate": true,
+   "hours": 2,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 20.01,
+   "longitude": 73.688,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Pandavleni Caves",
+   "city": "Nashik",
+   "state": "Maharashtra",
+   "categories": [
+    "history",
+    "adventure"
+   ],
+   "description": "Ancient rock-cut caves on a hill outside the city.",
+   "cost": 20,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 19.942,
+   "longitude": 73.758,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Basilica of Bom Jesus",
+   "city": "Goa",
+   "state": "Goa",
+   "categories": [
+    "religious",
+    "history",
+    "architecture"
+   ],
+   "description": "A historic church in Old Goa, part of a group of colonial-era monuments.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 15.5009,
+   "longitude": 73.9116,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Se Cathedral",
+   "city": "Goa",
+   "state": "Goa",
+   "categories": [
+    "religious",
+    "history",
+    "architecture"
+   ],
+   "description": "A large cathedral close to the Basilica in Old Goa.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 15.503,
+   "longitude": 73.912,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Fort Aguada",
+   "city": "Goa",
+   "state": "Goa",
+   "categories": [
+    "history",
+    "nature"
+   ],
+   "description": "A coastal Portuguese-era fort with sea views.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 15.492,
+   "longitude": 73.773,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Baga Beach",
+   "city": "Goa",
+   "state": "Goa",
+   "categories": [
+    "nature",
+    "adventure",
+    "food"
+   ],
+   "description": "A busy beach known for water sports, cafes and nightlife.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 3,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 15.5553,
+   "longitude": 73.7517,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Dudhsagar Falls",
+   "city": "Goa",
+   "state": "Goa",
+   "categories": [
+    "nature",
+    "adventure"
+   ],
+   "description": "A tall waterfall in the forest, reached by jeep in season.",
+   "cost": 400,
+   "cost_is_estimate": true,
+   "hours": 4,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 15.3144,
+   "longitude": 74.3143,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Chinese Fishing Nets",
+   "city": "Kochi",
+   "state": "Kerala",
+   "categories": [
+    "culture",
+    "nature"
+   ],
+   "description": "Large shore-operated fishing nets along Fort Kochi's waterfront.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 9.9658,
+   "longitude": 76.242,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Mattancherry Palace",
+   "city": "Kochi",
+   "state": "Kerala",
+   "categories": [
+    "history",
+    "museums",
+    "culture"
+   ],
+   "description": "A palace museum with murals and artefacts.",
+   "cost": 20,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 9.958,
+   "longitude": 76.259,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Jew Town",
+   "city": "Kochi",
+   "state": "Kerala",
+   "categories": [
+    "shopping",
+    "culture",
+    "history"
+   ],
+   "description": "A lane of antique and spice shops near the synagogue.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 9.957,
+   "longitude": 76.259,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Santa Cruz Basilica",
+   "city": "Kochi",
+   "state": "Kerala",
+   "categories": [
+    "religious",
+    "architecture"
+   ],
+   "description": "A historic church in Fort Kochi.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 0.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 9.963,
+   "longitude": 76.244,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Eravikulam National Park",
+   "city": "Munnar",
+   "state": "Kerala",
+   "categories": [
+    "wildlife",
+    "nature"
+   ],
+   "description": "A high-altitude park known for mountain landscapes and Nilgiri tahr.",
+   "cost": 300,
+   "cost_is_estimate": true,
+   "hours": 3,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 10.15,
+   "longitude": 77.06,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Mattupetty Dam",
+   "city": "Munnar",
+   "state": "Kerala",
+   "categories": [
+    "nature"
+   ],
+   "description": "A reservoir with boating and scenic views.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 10.107,
+   "longitude": 77.123,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Tea Museum",
+   "city": "Munnar",
+   "state": "Kerala",
+   "categories": [
+    "museums",
+    "culture"
+   ],
+   "description": "A small museum about the tea plantation history of the region.",
+   "cost": 125,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 10.09,
+   "longitude": 77.062,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Top Station",
+   "city": "Munnar",
+   "state": "Kerala",
+   "categories": [
+    "nature"
+   ],
+   "description": "A hilltop viewpoint known for sweeping views of the valley.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 10.097,
+   "longitude": 77.235,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Alleppey Backwaters",
+   "city": "Alleppey",
+   "state": "Kerala",
+   "categories": [
+    "nature",
+    "culture",
+    "adventure"
+   ],
+   "description": "A network of canals and lagoons, usually explored by houseboat or shikara.",
+   "cost": 1500,
+   "cost_is_estimate": true,
+   "hours": 4,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 9.4981,
+   "longitude": 76.3388,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Alappuzha Beach",
+   "city": "Alleppey",
+   "state": "Kerala",
+   "categories": [
+    "nature"
+   ],
+   "description": "A calm beach with an old pier.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 9.489,
+   "longitude": 76.325,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Marari Beach",
+   "city": "Alleppey",
+   "state": "Kerala",
+   "categories": [
+    "nature"
+   ],
+   "description": "A quiet beach popular for relaxing.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 2,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 9.608,
+   "longitude": 76.296,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Padmanabhaswamy Temple",
+   "city": "Thiruvananthapuram",
+   "state": "Kerala",
+   "categories": [
+    "religious",
+    "history",
+    "architecture"
+   ],
+   "description": "A major temple with strict dress rules for visitors.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 8.4828,
+   "longitude": 76.9436,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Kovalam Beach",
+   "city": "Thiruvananthapuram",
+   "state": "Kerala",
+   "categories": [
+    "nature",
+    "adventure"
+   ],
+   "description": "A crescent-shaped beach popular for swimming and sunsets.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 3,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 8.3988,
+   "longitude": 76.982,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Napier Museum",
+   "city": "Thiruvananthapuram",
+   "state": "Kerala",
+   "categories": [
+    "museums",
+    "architecture"
+   ],
+   "description": "A museum in a distinctive heritage building.",
+   "cost": 20,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 8.508,
+   "longitude": 76.956,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Poovar Island",
+   "city": "Thiruvananthapuram",
+   "state": "Kerala",
+   "categories": [
+    "nature"
+   ],
+   "description": "A backwater and beach area south of the city.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 3,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": null,
+   "longitude": null,
+   "coordinates_approximate": false,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Lalbagh Botanical Garden",
+   "city": "Bengaluru",
+   "state": "Karnataka",
+   "categories": [
+    "nature"
+   ],
+   "description": "A large botanical garden with a glasshouse and old trees.",
+   "cost": 30,
+   "cost_is_estimate": true,
+   "hours": 2,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 12.9507,
+   "longitude": 77.5848,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Cubbon Park",
+   "city": "Bengaluru",
+   "state": "Karnataka",
+   "categories": [
+    "nature"
+   ],
+   "description": "A large central park popular for walks.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 12.9763,
+   "longitude": 77.5929,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Bangalore Palace",
+   "city": "Bengaluru",
+   "state": "Karnataka",
+   "categories": [
+    "history",
+    "architecture"
+   ],
+   "description": "A palace with Tudor-style architecture and gardens.",
+   "cost": 270,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 12.9988,
+   "longitude": 77.5921,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Vidhana Soudha",
+   "city": "Bengaluru",
+   "state": "Karnataka",
+   "categories": [
+    "architecture",
+    "history"
+   ],
+   "description": "The state legislature building, usually viewed from outside.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 0.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 12.9797,
+   "longitude": 77.5907,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Bull Temple",
+   "city": "Bengaluru",
+   "state": "Karnataka",
+   "categories": [
+    "religious",
+    "culture"
+   ],
+   "description": "A temple known for its large Nandi statue.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 12.943,
+   "longitude": 77.568,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Mysore Palace",
+   "city": "Mysuru",
+   "state": "Karnataka",
+   "categories": [
+    "history",
+    "architecture",
+    "culture"
+   ],
+   "description": "A grand royal palace, especially striking when lit up on special evenings.",
+   "cost": 100,
+   "cost_is_estimate": true,
+   "hours": 2,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 12.3052,
+   "longitude": 76.6552,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Chamundi Hills",
+   "city": "Mysuru",
+   "state": "Karnataka",
+   "categories": [
+    "religious",
+    "nature"
+   ],
+   "description": "A hilltop temple area with views over the city.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 2,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 12.2724,
+   "longitude": 76.67,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Brindavan Gardens",
+   "city": "Mysuru",
+   "state": "Karnataka",
+   "categories": [
+    "nature"
+   ],
+   "description": "Terraced gardens below the KRS dam.",
+   "cost": 50,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 12.422,
+   "longitude": 76.572,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "St. Philomena's Church",
+   "city": "Mysuru",
+   "state": "Karnataka",
+   "categories": [
+    "religious",
+    "architecture"
+   ],
+   "description": "A large neo-Gothic church in the city.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 0.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 12.315,
+   "longitude": 76.654,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Mysore Zoo",
+   "city": "Mysuru",
+   "state": "Karnataka",
+   "categories": [
+    "wildlife",
+    "nature"
+   ],
+   "description": "One of the older zoos in India with a wide range of species.",
+   "cost": 100,
+   "cost_is_estimate": true,
+   "hours": 3,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 12.301,
+   "longitude": 76.652,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Virupaksha Temple",
+   "city": "Hampi",
+   "state": "Karnataka",
+   "categories": [
+    "religious",
+    "history",
+    "architecture"
+   ],
+   "description": "A living temple at the heart of the Vijayanagara ruins.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 15.335,
+   "longitude": 76.46,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Vittala Temple",
+   "city": "Hampi",
+   "state": "Karnataka",
+   "categories": [
+    "history",
+    "architecture"
+   ],
+   "description": "A temple complex famous for the stone chariot and carved pillars.",
+   "cost": 40,
+   "cost_is_estimate": true,
+   "hours": 2,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 15.343,
+   "longitude": 76.475,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Lotus Mahal",
+   "city": "Hampi",
+   "state": "Karnataka",
+   "categories": [
+    "history",
+    "architecture"
+   ],
+   "description": "A palace-era pavilion in the royal enclosure.",
+   "cost": 40,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 15.33,
+   "longitude": 76.467,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Hampi Bazaar",
+   "city": "Hampi",
+   "state": "Karnataka",
+   "categories": [
+    "shopping",
+    "culture",
+    "history"
+   ],
+   "description": "A long street of ruins and shops facing the main temple.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 15.335,
+   "longitude": 76.461,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Matanga Hill",
+   "city": "Hampi",
+   "state": "Karnataka",
+   "categories": [
+    "adventure",
+    "nature"
+   ],
+   "description": "A hill climb popular for sunrise views over the ruins.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": null,
+   "longitude": null,
+   "coordinates_approximate": false,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Abbey Falls",
+   "city": "Coorg",
+   "state": "Karnataka",
+   "categories": [
+    "nature"
+   ],
+   "description": "A waterfall surrounded by coffee estates.",
+   "cost": 50,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 12.457,
+   "longitude": 75.733,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Raja's Seat",
+   "city": "Coorg",
+   "state": "Karnataka",
+   "categories": [
+    "nature"
+   ],
+   "description": "A garden viewpoint known for sunsets over the valley.",
+   "cost": 20,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 12.42,
+   "longitude": 75.737,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Namdroling Monastery",
+   "city": "Coorg",
+   "state": "Karnataka",
+   "categories": [
+    "religious",
+    "culture"
+   ],
+   "description": "A large Tibetan Buddhist monastery at Bylakuppe.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 12.488,
+   "longitude": 75.966,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Dubare Elephant Camp",
+   "city": "Coorg",
+   "state": "Karnataka",
+   "categories": [
+    "wildlife",
+    "nature"
+   ],
+   "description": "A riverside elephant camp offering short visits.",
+   "cost": 100,
+   "cost_is_estimate": true,
+   "hours": 2,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": null,
+   "longitude": null,
+   "coordinates_approximate": false,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Marina Beach",
+   "city": "Chennai",
+   "state": "Tamil Nadu",
+   "categories": [
+    "nature",
+    "culture"
+   ],
+   "description": "One of the longest urban beaches, busy in the evenings.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 13.05,
+   "longitude": 80.2824,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Kapaleeshwarar Temple",
+   "city": "Chennai",
+   "state": "Tamil Nadu",
+   "categories": [
+    "religious",
+    "architecture"
+   ],
+   "description": "A Dravidian-style temple in Mylapore.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 13.034,
+   "longitude": 80.27,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Fort St. George",
+   "city": "Chennai",
+   "state": "Tamil Nadu",
+   "categories": [
+    "history",
+    "museums"
+   ],
+   "description": "A colonial-era fort that now houses a museum.",
+   "cost": 25,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 13.079,
+   "longitude": 80.287,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Government Museum Chennai",
+   "city": "Chennai",
+   "state": "Tamil Nadu",
+   "categories": [
+    "museums",
+    "history"
+   ],
+   "description": "A large museum with art, archaeology and natural history sections.",
+   "cost": 50,
+   "cost_is_estimate": true,
+   "hours": 2,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 13.07,
+   "longitude": 80.257,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "San Thome Basilica",
+   "city": "Chennai",
+   "state": "Tamil Nadu",
+   "categories": [
+    "religious",
+    "architecture"
+   ],
+   "description": "A neo-Gothic church near the beach.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 13.033,
+   "longitude": 80.278,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Meenakshi Amman Temple",
+   "city": "Madurai",
+   "state": "Tamil Nadu",
+   "categories": [
+    "religious",
+    "architecture",
+    "culture"
+   ],
+   "description": "A major temple complex with tall, brightly painted gateway towers.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 2,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 9.9195,
+   "longitude": 78.1193,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Thirumalai Nayakkar Mahal",
+   "city": "Madurai",
+   "state": "Tamil Nadu",
+   "categories": [
+    "history",
+    "architecture"
+   ],
+   "description": "A palace remnant with large pillared halls.",
+   "cost": 50,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 9.915,
+   "longitude": 78.126,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Gandhi Memorial Museum",
+   "city": "Madurai",
+   "state": "Tamil Nadu",
+   "categories": [
+    "museums",
+    "history"
+   ],
+   "description": "A museum about the freedom movement in a historic palace.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 9.94,
+   "longitude": 78.145,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Alagar Kovil",
+   "city": "Madurai",
+   "state": "Tamil Nadu",
+   "categories": [
+    "religious",
+    "nature"
+   ],
+   "description": "A hillside temple outside the city.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 10.077,
+   "longitude": 78.206,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Shore Temple",
+   "city": "Mahabalipuram",
+   "state": "Tamil Nadu",
+   "categories": [
+    "history",
+    "architecture",
+    "religious"
+   ],
+   "description": "A stone temple on the waterfront.",
+   "cost": 40,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 12.6165,
+   "longitude": 80.199,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Five Rathas",
+   "city": "Mahabalipuram",
+   "state": "Tamil Nadu",
+   "categories": [
+    "history",
+    "architecture"
+   ],
+   "description": "Monolithic rock-cut shrines carved in the shape of chariots.",
+   "cost": 40,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 12.607,
+   "longitude": 80.202,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Arjuna's Penance",
+   "city": "Mahabalipuram",
+   "state": "Tamil Nadu",
+   "categories": [
+    "history",
+    "culture"
+   ],
+   "description": "A huge open-air rock relief.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 0.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 12.617,
+   "longitude": 80.192,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Krishna's Butter Ball",
+   "city": "Mahabalipuram",
+   "state": "Tamil Nadu",
+   "categories": [
+    "history",
+    "nature"
+   ],
+   "description": "A massive balanced boulder on a hillside.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 0.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 12.616,
+   "longitude": 80.193,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Brihadisvara Temple",
+   "city": "Thanjavur",
+   "state": "Tamil Nadu",
+   "categories": [
+    "religious",
+    "history",
+    "architecture"
+   ],
+   "description": "A large Chola-era temple with a very tall tower.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 2,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 10.7828,
+   "longitude": 79.1318,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Thanjavur Maratha Palace",
+   "city": "Thanjavur",
+   "state": "Tamil Nadu",
+   "categories": [
+    "history",
+    "museums",
+    "architecture"
+   ],
+   "description": "A palace complex with galleries.",
+   "cost": 50,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 10.787,
+   "longitude": 79.135,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Saraswathi Mahal Library",
+   "city": "Thanjavur",
+   "state": "Tamil Nadu",
+   "categories": [
+    "museums",
+    "history"
+   ],
+   "description": "A historic library with old manuscripts.",
+   "cost": 10,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": null,
+   "longitude": null,
+   "coordinates_approximate": false,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Government Botanical Garden",
+   "city": "Ooty",
+   "state": "Tamil Nadu",
+   "categories": [
+    "nature"
+   ],
+   "description": "A terraced garden with many plant collections.",
+   "cost": 50,
+   "cost_is_estimate": true,
+   "hours": 2,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 11.419,
+   "longitude": 76.712,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Ooty Lake",
+   "city": "Ooty",
+   "state": "Tamil Nadu",
+   "categories": [
+    "nature",
+    "adventure"
+   ],
+   "description": "A lake with boating and walking paths.",
+   "cost": 20,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 11.402,
+   "longitude": 76.687,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Doddabetta Peak",
+   "city": "Ooty",
+   "state": "Tamil Nadu",
+   "categories": [
+    "nature"
+   ],
+   "description": "The highest point in the Nilgiris with wide viewpoints.",
+   "cost": 10,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 11.4,
+   "longitude": 76.736,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Nilgiri Mountain Railway",
+   "city": "Ooty",
+   "state": "Tamil Nadu",
+   "categories": [
+    "culture",
+    "adventure"
+   ],
+   "description": "A heritage mountain railway through tea country.",
+   "cost": 50,
+   "cost_is_estimate": true,
+   "hours": 3,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 11.412,
+   "longitude": 76.695,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Ramanathaswamy Temple",
+   "city": "Rameswaram",
+   "state": "Tamil Nadu",
+   "categories": [
+    "religious",
+    "architecture"
+   ],
+   "description": "A major temple known for its long pillared corridors.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 2,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 9.288,
+   "longitude": 79.317,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Dhanushkodi",
+   "city": "Rameswaram",
+   "state": "Tamil Nadu",
+   "categories": [
+    "nature",
+    "history"
+   ],
+   "description": "A sandy tip of land with ruins, reached by road.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 2,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 9.18,
+   "longitude": 79.43,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Pamban Bridge",
+   "city": "Rameswaram",
+   "state": "Tamil Nadu",
+   "categories": [
+    "history",
+    "nature"
+   ],
+   "description": "A sea bridge connecting the island to the mainland.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 9.283,
+   "longitude": 79.2,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Dr. APJ Abdul Kalam Memorial",
+   "city": "Rameswaram",
+   "state": "Tamil Nadu",
+   "categories": [
+    "museums",
+    "history"
+   ],
+   "description": "A memorial with exhibits about the former president.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 9.278,
+   "longitude": 79.356,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Charminar",
+   "city": "Hyderabad",
+   "state": "Telangana",
+   "categories": [
+    "history",
+    "architecture",
+    "shopping"
+   ],
+   "description": "A landmark monument with a busy bazaar around it.",
+   "cost": 25,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 17.3616,
+   "longitude": 78.4747,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Golconda Fort",
+   "city": "Hyderabad",
+   "state": "Telangana",
+   "categories": [
+    "history",
+    "architecture"
+   ],
+   "description": "A large hill fort with acoustic features and views.",
+   "cost": 25,
+   "cost_is_estimate": true,
+   "hours": 2.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 17.3833,
+   "longitude": 78.4011,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Hussain Sagar Lake",
+   "city": "Hyderabad",
+   "state": "Telangana",
+   "categories": [
+    "nature",
+    "culture"
+   ],
+   "description": "A large central lake with a Buddha statue.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 17.4239,
+   "longitude": 78.4738,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Ramoji Film City",
+   "city": "Hyderabad",
+   "state": "Telangana",
+   "categories": [
+    "culture",
+    "adventure"
+   ],
+   "description": "A large film studio complex with themed tours.",
+   "cost": 1500,
+   "cost_is_estimate": true,
+   "hours": 6,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 17.2543,
+   "longitude": 78.6808,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Salar Jung Museum",
+   "city": "Hyderabad",
+   "state": "Telangana",
+   "categories": [
+    "museums",
+    "culture",
+    "history"
+   ],
+   "description": "A major museum with a large private art collection.",
+   "cost": 20,
+   "cost_is_estimate": true,
+   "hours": 2.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 17.3713,
+   "longitude": 78.4804,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Chowmahalla Palace",
+   "city": "Hyderabad",
+   "state": "Telangana",
+   "categories": [
+    "history",
+    "architecture",
+    "museums"
+   ],
+   "description": "A restored palace complex of the Nizams.",
+   "cost": 80,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 17.3578,
+   "longitude": 78.4717,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "RK Beach",
+   "city": "Visakhapatnam",
+   "state": "Andhra Pradesh",
+   "categories": [
+    "nature",
+    "culture"
+   ],
+   "description": "A city beach popular for evening walks.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 17.7143,
+   "longitude": 83.323,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Kailasagiri",
+   "city": "Visakhapatnam",
+   "state": "Andhra Pradesh",
+   "categories": [
+    "nature",
+    "culture"
+   ],
+   "description": "A hilltop park with sea views.",
+   "cost": 20,
+   "cost_is_estimate": true,
+   "hours": 2,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 17.749,
+   "longitude": 83.342,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Borra Caves",
+   "city": "Visakhapatnam",
+   "state": "Andhra Pradesh",
+   "categories": [
+    "nature",
+    "adventure"
+   ],
+   "description": "Limestone caves with stalactites near Araku.",
+   "cost": 80,
+   "cost_is_estimate": true,
+   "hours": 2,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 18.28,
+   "longitude": 82.88,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Araku Valley",
+   "city": "Visakhapatnam",
+   "state": "Andhra Pradesh",
+   "categories": [
+    "nature",
+    "culture"
+   ],
+   "description": "A hill valley region known for coffee plantations.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 4,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 18.3273,
+   "longitude": 82.8775,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "INS Kursura Submarine Museum",
+   "city": "Visakhapatnam",
+   "state": "Andhra Pradesh",
+   "categories": [
+    "museums",
+    "history"
+   ],
+   "description": "A decommissioned submarine open to visitors.",
+   "cost": 50,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 17.714,
+   "longitude": 83.328,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Tirumala Venkateswara Temple",
+   "city": "Tirupati",
+   "state": "Andhra Pradesh",
+   "categories": [
+    "religious",
+    "culture"
+   ],
+   "description": "One of the most visited temples in the world; queues can be long.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 4,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 13.6833,
+   "longitude": 79.3472,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Sri Padmavathi Temple",
+   "city": "Tirupati",
+   "state": "Andhra Pradesh",
+   "categories": [
+    "religious"
+   ],
+   "description": "A temple at Tiruchanur dedicated to the goddess Padmavathi.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 13.6049,
+   "longitude": 79.419,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Chandragiri Fort",
+   "city": "Tirupati",
+   "state": "Andhra Pradesh",
+   "categories": [
+    "history",
+    "museums"
+   ],
+   "description": "A historic hill fort with a small museum.",
+   "cost": 10,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 13.586,
+   "longitude": 79.319,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Silathoranam",
+   "city": "Tirupati",
+   "state": "Andhra Pradesh",
+   "categories": [
+    "nature",
+    "history"
+   ],
+   "description": "A natural rock arch near the temple area.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 0.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": null,
+   "longitude": null,
+   "coordinates_approximate": false,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Taj Mahal",
+   "city": "Agra",
+   "state": "Uttar Pradesh",
+   "categories": [
+    "history",
+    "culture",
+    "architecture"
+   ],
+   "description": "A white-marble mausoleum and one of the best-known monuments in the world.",
+   "cost": 50,
+   "cost_is_estimate": true,
+   "hours": 3,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 27.1751,
+   "longitude": 78.0421,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Agra Fort",
+   "city": "Agra",
+   "state": "Uttar Pradesh",
+   "categories": [
+    "history",
+    "architecture"
+   ],
+   "description": "A large red-sandstone fort with palaces and halls.",
+   "cost": 50,
+   "cost_is_estimate": true,
+   "hours": 2,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 27.1795,
+   "longitude": 78.0211,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Fatehpur Sikri",
+   "city": "Agra",
+   "state": "Uttar Pradesh",
+   "categories": [
+    "history",
+    "architecture"
+   ],
+   "description": "A well-preserved abandoned Mughal capital city.",
+   "cost": 50,
+   "cost_is_estimate": true,
+   "hours": 3,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 27.094,
+   "longitude": 77.661,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Mehtab Bagh",
+   "city": "Agra",
+   "state": "Uttar Pradesh",
+   "categories": [
+    "nature",
+    "history"
+   ],
+   "description": "A garden across the river with a classic Taj view.",
+   "cost": 30,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 27.183,
+   "longitude": 78.043,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Itimad-ud-Daulah",
+   "city": "Agra",
+   "state": "Uttar Pradesh",
+   "categories": [
+    "history",
+    "architecture"
+   ],
+   "description": "A finely decorated tomb on the riverbank.",
+   "cost": 30,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 27.193,
+   "longitude": 78.03,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Kashi Vishwanath Temple",
+   "city": "Varanasi",
+   "state": "Uttar Pradesh",
+   "categories": [
+    "religious",
+    "culture"
+   ],
+   "description": "A major Shiva temple in the old city.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 2,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 25.3109,
+   "longitude": 83.0107,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Dashashwamedh Ghat",
+   "city": "Varanasi",
+   "state": "Uttar Pradesh",
+   "categories": [
+    "religious",
+    "culture"
+   ],
+   "description": "The main ghat, known for the evening Ganga aarti.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 2,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 25.307,
+   "longitude": 83.0104,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Sarnath",
+   "city": "Varanasi",
+   "state": "Uttar Pradesh",
+   "categories": [
+    "history",
+    "religious",
+    "museums"
+   ],
+   "description": "A Buddhist site with ruins, a stupa and a museum.",
+   "cost": 25,
+   "cost_is_estimate": true,
+   "hours": 3,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 25.381,
+   "longitude": 83.023,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Assi Ghat",
+   "city": "Varanasi",
+   "state": "Uttar Pradesh",
+   "categories": [
+    "culture",
+    "religious"
+   ],
+   "description": "A popular ghat for morning rituals and music.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 25.289,
+   "longitude": 83.006,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Ramnagar Fort",
+   "city": "Varanasi",
+   "state": "Uttar Pradesh",
+   "categories": [
+    "history",
+    "museums"
+   ],
+   "description": "A riverside fort with a small museum.",
+   "cost": 50,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 25.269,
+   "longitude": 83.023,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Bara Imambara",
+   "city": "Lucknow",
+   "state": "Uttar Pradesh",
+   "categories": [
+    "history",
+    "architecture"
+   ],
+   "description": "A large 18th-century complex known for its vast hall and maze.",
+   "cost": 50,
+   "cost_is_estimate": true,
+   "hours": 2,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 26.869,
+   "longitude": 80.912,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Rumi Darwaza",
+   "city": "Lucknow",
+   "state": "Uttar Pradesh",
+   "categories": [
+    "history",
+    "architecture"
+   ],
+   "description": "A tall ornate gateway near the Imambara.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 0.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 26.87,
+   "longitude": 80.91,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Chota Imambara",
+   "city": "Lucknow",
+   "state": "Uttar Pradesh",
+   "categories": [
+    "history",
+    "architecture",
+    "religious"
+   ],
+   "description": "An ornate shrine and hall.",
+   "cost": 20,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 26.873,
+   "longitude": 80.905,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "British Residency",
+   "city": "Lucknow",
+   "state": "Uttar Pradesh",
+   "categories": [
+    "history"
+   ],
+   "description": "Ruins from the 1857 uprising.",
+   "cost": 25,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 26.861,
+   "longitude": 80.922,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Hazratganj",
+   "city": "Lucknow",
+   "state": "Uttar Pradesh",
+   "categories": [
+    "shopping",
+    "food"
+   ],
+   "description": "A central shopping and dining district.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 2,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 26.85,
+   "longitude": 80.94,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Ram Janmabhoomi Temple",
+   "city": "Ayodhya",
+   "state": "Uttar Pradesh",
+   "categories": [
+    "religious",
+    "culture"
+   ],
+   "description": "A major temple complex; visitor rules and timings change often.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 2,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 26.7956,
+   "longitude": 82.194,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Hanuman Garhi",
+   "city": "Ayodhya",
+   "state": "Uttar Pradesh",
+   "categories": [
+    "religious"
+   ],
+   "description": "A hilltop temple reached by a flight of steps.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 26.8,
+   "longitude": 82.203,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Kanak Bhawan",
+   "city": "Ayodhya",
+   "state": "Uttar Pradesh",
+   "categories": [
+    "religious",
+    "architecture"
+   ],
+   "description": "A decorated temple in the town.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 26.798,
+   "longitude": 82.198,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Saryu Ghat",
+   "city": "Ayodhya",
+   "state": "Uttar Pradesh",
+   "categories": [
+    "religious",
+    "nature"
+   ],
+   "description": "River ghats where evening aarti is held.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 26.803,
+   "longitude": 82.205,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Triveni Sangam",
+   "city": "Prayagraj",
+   "state": "Uttar Pradesh",
+   "categories": [
+    "religious",
+    "nature",
+    "culture"
+   ],
+   "description": "The meeting point of the Ganga and Yamuna rivers, reached by boat.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 2,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 25.426,
+   "longitude": 81.886,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Anand Bhawan",
+   "city": "Prayagraj",
+   "state": "Uttar Pradesh",
+   "categories": [
+    "history",
+    "museums"
+   ],
+   "description": "A historic family home turned museum.",
+   "cost": 20,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 25.456,
+   "longitude": 81.849,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Allahabad Fort",
+   "city": "Prayagraj",
+   "state": "Uttar Pradesh",
+   "categories": [
+    "history",
+    "architecture"
+   ],
+   "description": "A riverside fort, partly open to visitors.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 25.429,
+   "longitude": 81.873,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Khusro Bagh",
+   "city": "Prayagraj",
+   "state": "Uttar Pradesh",
+   "categories": [
+    "history",
+    "nature"
+   ],
+   "description": "A walled garden with Mughal-era tombs.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 25.443,
+   "longitude": 81.819,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Shri Krishna Janmasthan",
+   "city": "Mathura",
+   "state": "Uttar Pradesh",
+   "categories": [
+    "religious",
+    "culture"
+   ],
+   "description": "A temple complex at the traditional birthplace of Krishna.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 27.504,
+   "longitude": 77.67,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Banke Bihari Temple",
+   "city": "Mathura",
+   "state": "Uttar Pradesh",
+   "categories": [
+    "religious",
+    "culture"
+   ],
+   "description": "A busy temple in Vrindavan.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 27.581,
+   "longitude": 77.697,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Prem Mandir",
+   "city": "Mathura",
+   "state": "Uttar Pradesh",
+   "categories": [
+    "religious",
+    "architecture"
+   ],
+   "description": "A modern marble temple with evening light shows.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 27.564,
+   "longitude": 77.671,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Vishram Ghat",
+   "city": "Mathura",
+   "state": "Uttar Pradesh",
+   "categories": [
+    "religious",
+    "nature"
+   ],
+   "description": "A river ghat on the Yamuna with daily aarti.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 27.503,
+   "longitude": 77.689,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Laxman Jhula",
+   "city": "Rishikesh",
+   "state": "Uttarakhand",
+   "categories": [
+    "culture",
+    "religious"
+   ],
+   "description": "A pedestrian suspension bridge over the Ganga.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 30.126,
+   "longitude": 78.328,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Triveni Ghat",
+   "city": "Rishikesh",
+   "state": "Uttarakhand",
+   "categories": [
+    "religious",
+    "culture"
+   ],
+   "description": "The main ghat for the evening Ganga aarti.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 30.1,
+   "longitude": 78.296,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Beatles Ashram",
+   "city": "Rishikesh",
+   "state": "Uttarakhand",
+   "categories": [
+    "history",
+    "culture"
+   ],
+   "description": "A ruined ashram complex with colourful murals, in forest.",
+   "cost": 150,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 30.103,
+   "longitude": 78.301,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "River Rafting at Shivpuri",
+   "city": "Rishikesh",
+   "state": "Uttarakhand",
+   "categories": [
+    "adventure",
+    "nature"
+   ],
+   "description": "Seasonal white-water rafting on the Ganga with licensed operators.",
+   "cost": 600,
+   "cost_is_estimate": true,
+   "hours": 3,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": null,
+   "longitude": null,
+   "coordinates_approximate": false,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Har Ki Pauri",
+   "city": "Haridwar",
+   "state": "Uttarakhand",
+   "categories": [
+    "religious",
+    "culture"
+   ],
+   "description": "The best-known ghat, famous for the evening Ganga aarti.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 2,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 29.957,
+   "longitude": 78.17,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Mansa Devi Temple",
+   "city": "Haridwar",
+   "state": "Uttarakhand",
+   "categories": [
+    "religious",
+    "nature"
+   ],
+   "description": "A hilltop temple reached by ropeway or on foot.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 29.96,
+   "longitude": 78.168,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Chandi Devi Temple",
+   "city": "Haridwar",
+   "state": "Uttarakhand",
+   "categories": [
+    "religious",
+    "nature"
+   ],
+   "description": "A hilltop temple with ropeway access.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 29.966,
+   "longitude": 78.185,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Rajaji National Park",
+   "city": "Haridwar",
+   "state": "Uttarakhand",
+   "categories": [
+    "wildlife",
+    "nature"
+   ],
+   "description": "A forest reserve nearby known for elephants and birds.",
+   "cost": 800,
+   "cost_is_estimate": true,
+   "hours": 3,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": null,
+   "longitude": null,
+   "coordinates_approximate": false,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Naini Lake",
+   "city": "Nainital",
+   "state": "Uttarakhand",
+   "categories": [
+    "nature",
+    "adventure"
+   ],
+   "description": "A central lake with boating.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 2,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 29.391,
+   "longitude": 79.456,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Naina Devi Temple",
+   "city": "Nainital",
+   "state": "Uttarakhand",
+   "categories": [
+    "religious"
+   ],
+   "description": "A temple on the lakeshore.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 29.392,
+   "longitude": 79.457,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Snow View Point",
+   "city": "Nainital",
+   "state": "Uttarakhand",
+   "categories": [
+    "nature"
+   ],
+   "description": "A viewpoint with ropeway access.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 29.398,
+   "longitude": 79.458,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Tiffin Top",
+   "city": "Nainital",
+   "state": "Uttarakhand",
+   "categories": [
+    "nature",
+    "adventure"
+   ],
+   "description": "A short hike to a viewpoint above the town.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 2,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": null,
+   "longitude": null,
+   "coordinates_approximate": false,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Kempty Falls",
+   "city": "Mussoorie",
+   "state": "Uttarakhand",
+   "categories": [
+    "nature"
+   ],
+   "description": "A popular waterfall on the road to Chakrata.",
+   "cost": 20,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 30.443,
+   "longitude": 78.033,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Gun Hill",
+   "city": "Mussoorie",
+   "state": "Uttarakhand",
+   "categories": [
+    "nature"
+   ],
+   "description": "A hill with ropeway access and mountain views.",
+   "cost": 30,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 30.459,
+   "longitude": 78.066,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Mall Road",
+   "city": "Mussoorie",
+   "state": "Uttarakhand",
+   "categories": [
+    "shopping",
+    "food"
+   ],
+   "description": "The main promenade for shopping and snacks.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 2,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 30.458,
+   "longitude": 78.069,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Lal Tibba",
+   "city": "Mussoorie",
+   "state": "Uttarakhand",
+   "categories": [
+    "nature"
+   ],
+   "description": "A high viewpoint known for Himalayan views on clear days.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 30.458,
+   "longitude": 78.054,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Jim Corbett National Park",
+   "city": "Jim Corbett",
+   "state": "Uttarakhand",
+   "categories": [
+    "wildlife",
+    "nature",
+    "adventure"
+   ],
+   "description": "A famous tiger reserve visited on safaris.",
+   "cost": 1500,
+   "cost_is_estimate": true,
+   "hours": 4,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 29.53,
+   "longitude": 78.7747,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Corbett Falls",
+   "city": "Jim Corbett",
+   "state": "Uttarakhand",
+   "categories": [
+    "nature"
+   ],
+   "description": "A small waterfall in the Corbett area.",
+   "cost": 50,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": null,
+   "longitude": null,
+   "coordinates_approximate": false,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Garjiya Devi Temple",
+   "city": "Jim Corbett",
+   "state": "Uttarakhand",
+   "categories": [
+    "religious",
+    "nature"
+   ],
+   "description": "A temple on a large rock in the Kosi river.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": null,
+   "longitude": null,
+   "coordinates_approximate": false,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "The Ridge",
+   "city": "Shimla",
+   "state": "Himachal Pradesh",
+   "categories": [
+    "culture",
+    "nature"
+   ],
+   "description": "An open promenade at the centre of the town with mountain views.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 31.1048,
+   "longitude": 77.1734,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Christ Church",
+   "city": "Shimla",
+   "state": "Himachal Pradesh",
+   "categories": [
+    "religious",
+    "architecture",
+    "history"
+   ],
+   "description": "A colonial-era church on the Ridge.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 0.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 31.105,
+   "longitude": 77.173,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Jakhu Temple",
+   "city": "Shimla",
+   "state": "Himachal Pradesh",
+   "categories": [
+    "religious",
+    "nature"
+   ],
+   "description": "A hilltop Hanuman temple with city views.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 31.1002,
+   "longitude": 77.185,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Kufri",
+   "city": "Shimla",
+   "state": "Himachal Pradesh",
+   "categories": [
+    "nature",
+    "adventure"
+   ],
+   "description": "A hill resort for walks, snow in winter, and viewpoints.",
+   "cost": 50,
+   "cost_is_estimate": true,
+   "hours": 3,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 31.098,
+   "longitude": 77.265,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Mall Road Shimla",
+   "city": "Shimla",
+   "state": "Himachal Pradesh",
+   "categories": [
+    "shopping",
+    "food"
+   ],
+   "description": "A pedestrian shopping street.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 2,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 31.104,
+   "longitude": 77.17,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Hadimba Temple",
+   "city": "Manali",
+   "state": "Himachal Pradesh",
+   "categories": [
+    "religious",
+    "culture"
+   ],
+   "description": "A wooden temple set in a cedar forest.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 32.248,
+   "longitude": 77.18,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Solang Valley",
+   "city": "Manali",
+   "state": "Himachal Pradesh",
+   "categories": [
+    "adventure",
+    "nature"
+   ],
+   "description": "A valley known for snow activities and paragliding in season.",
+   "cost": 500,
+   "cost_is_estimate": true,
+   "hours": 3,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 32.317,
+   "longitude": 77.158,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Rohtang Pass",
+   "city": "Manali",
+   "state": "Himachal Pradesh",
+   "categories": [
+    "adventure",
+    "nature"
+   ],
+   "description": "A high mountain pass; access needs a permit and is seasonal.",
+   "cost": 550,
+   "cost_is_estimate": true,
+   "hours": 5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 32.372,
+   "longitude": 77.246,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Old Manali",
+   "city": "Manali",
+   "state": "Himachal Pradesh",
+   "categories": [
+    "culture",
+    "food",
+    "shopping"
+   ],
+   "description": "A cafe-lined village area with local shops.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 2,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 32.256,
+   "longitude": 77.181,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Jogini Falls",
+   "city": "Manali",
+   "state": "Himachal Pradesh",
+   "categories": [
+    "nature",
+    "adventure"
+   ],
+   "description": "A waterfall reached by a short trek.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 2,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": null,
+   "longitude": null,
+   "coordinates_approximate": false,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Tsuglagkhang Complex",
+   "city": "Dharamshala",
+   "state": "Himachal Pradesh",
+   "categories": [
+    "religious",
+    "culture",
+    "museums"
+   ],
+   "description": "The main Tibetan temple complex with a small museum, in McLeod Ganj.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 2,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 32.226,
+   "longitude": 76.321,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Bhagsu Waterfall",
+   "city": "Dharamshala",
+   "state": "Himachal Pradesh",
+   "categories": [
+    "nature"
+   ],
+   "description": "A waterfall reached by a short walk from Bhagsu village.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 32.245,
+   "longitude": 76.343,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Triund Trek",
+   "city": "Dharamshala",
+   "state": "Himachal Pradesh",
+   "categories": [
+    "adventure",
+    "nature"
+   ],
+   "description": "A popular day trek with views of the Dhauladhar range.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": null,
+   "longitude": null,
+   "coordinates_approximate": false,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Kangra Fort",
+   "city": "Dharamshala",
+   "state": "Himachal Pradesh",
+   "categories": [
+    "history",
+    "architecture"
+   ],
+   "description": "One of the oldest forts in the region.",
+   "cost": 40,
+   "cost_is_estimate": true,
+   "hours": 2,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 32.09,
+   "longitude": 76.26,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Dal Lake",
+   "city": "Srinagar",
+   "state": "Jammu and Kashmir",
+   "categories": [
+    "nature",
+    "culture"
+   ],
+   "description": "A large lake known for shikara rides and houseboats.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 3,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 34.11,
+   "longitude": 74.87,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Shalimar Bagh",
+   "city": "Srinagar",
+   "state": "Jammu and Kashmir",
+   "categories": [
+    "history",
+    "nature",
+    "architecture"
+   ],
+   "description": "A terraced Mughal garden.",
+   "cost": 30,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 34.143,
+   "longitude": 74.874,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Nishat Bagh",
+   "city": "Srinagar",
+   "state": "Jammu and Kashmir",
+   "categories": [
+    "history",
+    "nature"
+   ],
+   "description": "A Mughal garden overlooking the lake.",
+   "cost": 30,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 34.11,
+   "longitude": 74.868,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Hazratbal Shrine",
+   "city": "Srinagar",
+   "state": "Jammu and Kashmir",
+   "categories": [
+    "religious",
+    "architecture"
+   ],
+   "description": "A major shrine on the lake shore.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 34.128,
+   "longitude": 74.842,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Shankaracharya Temple",
+   "city": "Srinagar",
+   "state": "Jammu and Kashmir",
+   "categories": [
+    "religious",
+    "nature"
+   ],
+   "description": "A hilltop temple with city views.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 34.077,
+   "longitude": 74.836,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Gulmarg Gondola",
+   "city": "Gulmarg",
+   "state": "Jammu and Kashmir",
+   "categories": [
+    "adventure",
+    "nature"
+   ],
+   "description": "A cable car to high viewpoints and ski slopes.",
+   "cost": 900,
+   "cost_is_estimate": true,
+   "hours": 3,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 34.048,
+   "longitude": 74.387,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Alpather Lake",
+   "city": "Gulmarg",
+   "state": "Jammu and Kashmir",
+   "categories": [
+    "nature",
+    "adventure"
+   ],
+   "description": "A high-altitude lake, often frozen until early summer.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": null,
+   "longitude": null,
+   "coordinates_approximate": false,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Strawberry Valley",
+   "city": "Gulmarg",
+   "state": "Jammu and Kashmir",
+   "categories": [
+    "nature"
+   ],
+   "description": "A meadow area in the Gulmarg region.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": null,
+   "longitude": null,
+   "coordinates_approximate": false,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Betaab Valley",
+   "city": "Pahalgam",
+   "state": "Jammu and Kashmir",
+   "categories": [
+    "nature"
+   ],
+   "description": "A scenic valley with meadows and river views.",
+   "cost": 50,
+   "cost_is_estimate": true,
+   "hours": 2,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": null,
+   "longitude": null,
+   "coordinates_approximate": false,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Aru Valley",
+   "city": "Pahalgam",
+   "state": "Jammu and Kashmir",
+   "categories": [
+    "nature",
+    "adventure"
+   ],
+   "description": "A quiet valley and trek starting point.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 3,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": null,
+   "longitude": null,
+   "coordinates_approximate": false,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Lidder River",
+   "city": "Pahalgam",
+   "state": "Jammu and Kashmir",
+   "categories": [
+    "nature",
+    "adventure"
+   ],
+   "description": "A river running through the town, good for walks.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 2,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": null,
+   "longitude": null,
+   "coordinates_approximate": false,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Raghunath Temple",
+   "city": "Jammu",
+   "state": "Jammu and Kashmir",
+   "categories": [
+    "religious",
+    "architecture"
+   ],
+   "description": "A large temple complex in the city centre.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 32.728,
+   "longitude": 74.857,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Bahu Fort",
+   "city": "Jammu",
+   "state": "Jammu and Kashmir",
+   "categories": [
+    "history",
+    "nature"
+   ],
+   "description": "A hilltop fort with a temple and gardens.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 32.715,
+   "longitude": 74.865,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Vaishno Devi Temple (Katra)",
+   "city": "Jammu",
+   "state": "Jammu and Kashmir",
+   "categories": [
+    "religious",
+    "adventure"
+   ],
+   "description": "A major pilgrimage reached by a long uphill route from Katra.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 8,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 33.03,
+   "longitude": 74.949,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Amar Mahal Museum",
+   "city": "Jammu",
+   "state": "Jammu and Kashmir",
+   "categories": [
+    "museums",
+    "history"
+   ],
+   "description": "A palace turned museum.",
+   "cost": 50,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": null,
+   "longitude": null,
+   "coordinates_approximate": false,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Leh Palace",
+   "city": "Leh",
+   "state": "Ladakh",
+   "categories": [
+    "history",
+    "architecture"
+   ],
+   "description": "A ruined palace overlooking the town.",
+   "cost": 15,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 34.165,
+   "longitude": 77.585,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Shanti Stupa",
+   "city": "Leh",
+   "state": "Ladakh",
+   "categories": [
+    "religious",
+    "nature"
+   ],
+   "description": "A white-domed stupa with sunset views.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 34.168,
+   "longitude": 77.57,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Pangong Tso",
+   "city": "Leh",
+   "state": "Ladakh",
+   "categories": [
+    "nature",
+    "adventure"
+   ],
+   "description": "A high-altitude lake; needs a permit and acclimatisation.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 8,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 33.75,
+   "longitude": 78.65,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Nubra Valley",
+   "city": "Leh",
+   "state": "Ladakh",
+   "categories": [
+    "nature",
+    "adventure",
+    "culture"
+   ],
+   "description": "A valley with dunes and monasteries, reached via a high pass; permit needed.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 8,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 34.6,
+   "longitude": 77.56,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Thiksey Monastery",
+   "city": "Leh",
+   "state": "Ladakh",
+   "categories": [
+    "religious",
+    "architecture",
+    "culture"
+   ],
+   "description": "A large hilltop monastery.",
+   "cost": 50,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 34.048,
+   "longitude": 77.67,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Magnetic Hill",
+   "city": "Leh",
+   "state": "Ladakh",
+   "categories": [
+    "nature"
+   ],
+   "description": "A roadside spot known for an optical illusion.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 0.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 34.19,
+   "longitude": 77.44,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Golden Temple",
+   "city": "Amritsar",
+   "state": "Punjab",
+   "categories": [
+    "religious",
+    "culture",
+    "architecture",
+    "food"
+   ],
+   "description": "The holiest Sikh shrine, with a free community kitchen.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 3,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 31.62,
+   "longitude": 74.8765,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Jallianwala Bagh",
+   "city": "Amritsar",
+   "state": "Punjab",
+   "categories": [
+    "history",
+    "museums"
+   ],
+   "description": "A memorial garden to the 1919 massacre.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 31.6206,
+   "longitude": 74.88,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Wagah Border Ceremony",
+   "city": "Amritsar",
+   "state": "Punjab",
+   "categories": [
+    "culture",
+    "history"
+   ],
+   "description": "A daily flag-lowering ceremony at the India-Pakistan border.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 3,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 31.604,
+   "longitude": 74.573,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Partition Museum",
+   "city": "Amritsar",
+   "state": "Punjab",
+   "categories": [
+    "museums",
+    "history"
+   ],
+   "description": "A museum about the 1947 Partition.",
+   "cost": 10,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 31.624,
+   "longitude": 74.878,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Durgiana Temple",
+   "city": "Amritsar",
+   "state": "Punjab",
+   "categories": [
+    "religious",
+    "architecture"
+   ],
+   "description": "A temple set in a pool, similar in layout to the Golden Temple.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": null,
+   "longitude": null,
+   "coordinates_approximate": false,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Brahma Sarovar",
+   "city": "Kurukshetra",
+   "state": "Haryana",
+   "categories": [
+    "religious",
+    "nature",
+    "culture"
+   ],
+   "description": "A large sacred tank, busy at festival times.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 29.9606,
+   "longitude": 76.84,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Jyotisar",
+   "city": "Kurukshetra",
+   "state": "Haryana",
+   "categories": [
+    "religious",
+    "history"
+   ],
+   "description": "A site linked to the Bhagavad Gita, with a banyan tree and temple.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": null,
+   "longitude": null,
+   "coordinates_approximate": false,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Sheikh Chilli's Tomb",
+   "city": "Kurukshetra",
+   "state": "Haryana",
+   "categories": [
+    "history",
+    "architecture"
+   ],
+   "description": "A historic tomb complex.",
+   "cost": 10,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": null,
+   "longitude": null,
+   "coordinates_approximate": false,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Kurukshetra Panorama and Science Centre",
+   "city": "Kurukshetra",
+   "state": "Haryana",
+   "categories": [
+    "museums",
+    "history"
+   ],
+   "description": "A museum with a panorama about the Mahabharata.",
+   "cost": 50,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": null,
+   "longitude": null,
+   "coordinates_approximate": false,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Rock Garden",
+   "city": "Chandigarh",
+   "state": "Chandigarh",
+   "categories": [
+    "culture",
+    "museums",
+    "nature"
+   ],
+   "description": "A sculpture garden built from waste and found objects.",
+   "cost": 30,
+   "cost_is_estimate": true,
+   "hours": 2,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 30.7525,
+   "longitude": 76.8101,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Sukhna Lake",
+   "city": "Chandigarh",
+   "state": "Chandigarh",
+   "categories": [
+    "nature"
+   ],
+   "description": "A man-made lake used for boating and walks.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 30.7421,
+   "longitude": 76.8188,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Zakir Hussain Rose Garden",
+   "city": "Chandigarh",
+   "state": "Chandigarh",
+   "categories": [
+    "nature"
+   ],
+   "description": "One of the largest rose gardens in Asia.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 30.746,
+   "longitude": 76.783,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Capitol Complex",
+   "city": "Chandigarh",
+   "state": "Chandigarh",
+   "categories": [
+    "architecture",
+    "history"
+   ],
+   "description": "Government buildings designed by Le Corbusier; visit by arrangement.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 30.758,
+   "longitude": 76.802,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Sabarmati Ashram",
+   "city": "Ahmedabad",
+   "state": "Gujarat",
+   "categories": [
+    "history",
+    "museums"
+   ],
+   "description": "Gandhi's former residence and a museum on the riverbank.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 23.0607,
+   "longitude": 72.5802,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Adalaj Stepwell",
+   "city": "Ahmedabad",
+   "state": "Gujarat",
+   "categories": [
+    "history",
+    "architecture"
+   ],
+   "description": "An intricately carved stepwell.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 23.167,
+   "longitude": 72.581,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Sidi Saiyyed Mosque",
+   "city": "Ahmedabad",
+   "state": "Gujarat",
+   "categories": [
+    "history",
+    "architecture",
+    "religious"
+   ],
+   "description": "A mosque famous for its stone lattice windows.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 0.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 23.027,
+   "longitude": 72.581,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Kankaria Lake",
+   "city": "Ahmedabad",
+   "state": "Gujarat",
+   "categories": [
+    "nature",
+    "culture"
+   ],
+   "description": "A lakefront with attractions and walking areas.",
+   "cost": 20,
+   "cost_is_estimate": true,
+   "hours": 2,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 23.007,
+   "longitude": 72.603,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Statue of Unity",
+   "city": "Kevadia",
+   "state": "Gujarat",
+   "categories": [
+    "history",
+    "culture",
+    "architecture"
+   ],
+   "description": "One of the tallest statues in the world, with a viewing gallery.",
+   "cost": 380,
+   "cost_is_estimate": true,
+   "hours": 3,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 21.838,
+   "longitude": 73.7191,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Sardar Sarovar Dam",
+   "city": "Kevadia",
+   "state": "Gujarat",
+   "categories": [
+    "nature",
+    "architecture"
+   ],
+   "description": "A large dam with viewpoints.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 21.83,
+   "longitude": 73.748,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Shoolpaneshwar Wildlife Sanctuary",
+   "city": "Kevadia",
+   "state": "Gujarat",
+   "categories": [
+    "wildlife",
+    "nature"
+   ],
+   "description": "A forest sanctuary nearby.",
+   "cost": 100,
+   "cost_is_estimate": true,
+   "hours": 3,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": null,
+   "longitude": null,
+   "coordinates_approximate": false,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Dwarkadhish Temple",
+   "city": "Dwarka",
+   "state": "Gujarat",
+   "categories": [
+    "religious",
+    "architecture"
+   ],
+   "description": "A major Krishna temple.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 22.2375,
+   "longitude": 68.9677,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Bet Dwarka",
+   "city": "Dwarka",
+   "state": "Gujarat",
+   "categories": [
+    "religious",
+    "nature"
+   ],
+   "description": "An island reached by boat, with temples.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 3,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 22.475,
+   "longitude": 69.083,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Nageshwar Jyotirlinga",
+   "city": "Dwarka",
+   "state": "Gujarat",
+   "categories": [
+    "religious"
+   ],
+   "description": "A Shiva temple on the road to Bet Dwarka.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 22.338,
+   "longitude": 69.078,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Rukmini Devi Temple",
+   "city": "Dwarka",
+   "state": "Gujarat",
+   "categories": [
+    "religious"
+   ],
+   "description": "A temple dedicated to Rukmini near the town.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": null,
+   "longitude": null,
+   "coordinates_approximate": false,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Diu Fort",
+   "city": "Diu",
+   "state": "Dadra and Nagar Haveli and Daman and Diu",
+   "categories": [
+    "history",
+    "architecture"
+   ],
+   "description": "A large coastal Portuguese fort.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 20.712,
+   "longitude": 70.991,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Nagoa Beach",
+   "city": "Diu",
+   "state": "Dadra and Nagar Haveli and Daman and Diu",
+   "categories": [
+    "nature"
+   ],
+   "description": "A horseshoe-shaped beach.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 2,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 20.7,
+   "longitude": 70.93,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "St. Paul's Church",
+   "city": "Diu",
+   "state": "Dadra and Nagar Haveli and Daman and Diu",
+   "categories": [
+    "religious",
+    "architecture"
+   ],
+   "description": "A baroque-style church.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 0.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 20.711,
+   "longitude": 70.986,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Naida Caves",
+   "city": "Diu",
+   "state": "Dadra and Nagar Haveli and Daman and Diu",
+   "categories": [
+    "history",
+    "nature"
+   ],
+   "description": "Old quarried caves with light shafts.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 20.713,
+   "longitude": 70.986,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Victoria Memorial",
+   "city": "Kolkata",
+   "state": "West Bengal",
+   "categories": [
+    "history",
+    "museums",
+    "architecture"
+   ],
+   "description": "A marble memorial building and museum.",
+   "cost": 30,
+   "cost_is_estimate": true,
+   "hours": 2,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 22.5448,
+   "longitude": 88.3426,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Howrah Bridge",
+   "city": "Kolkata",
+   "state": "West Bengal",
+   "categories": [
+    "culture",
+    "architecture"
+   ],
+   "description": "A busy cantilever bridge over the Hooghly.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 0.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 22.5851,
+   "longitude": 88.3468,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Dakshineswar Kali Temple",
+   "city": "Kolkata",
+   "state": "West Bengal",
+   "categories": [
+    "religious"
+   ],
+   "description": "A major riverside temple.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 22.655,
+   "longitude": 88.357,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Indian Museum",
+   "city": "Kolkata",
+   "state": "West Bengal",
+   "categories": [
+    "museums",
+    "history"
+   ],
+   "description": "One of the oldest and largest museums in the country.",
+   "cost": 50,
+   "cost_is_estimate": true,
+   "hours": 2,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 22.558,
+   "longitude": 88.351,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Park Street",
+   "city": "Kolkata",
+   "state": "West Bengal",
+   "categories": [
+    "food",
+    "shopping"
+   ],
+   "description": "A dining and nightlife street.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 2,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 22.553,
+   "longitude": 88.354,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "College Street Book Market",
+   "city": "Kolkata",
+   "state": "West Bengal",
+   "categories": [
+    "shopping",
+    "culture"
+   ],
+   "description": "A long row of second-hand and new book stalls.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 22.575,
+   "longitude": 88.364,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Tiger Hill",
+   "city": "Darjeeling",
+   "state": "West Bengal",
+   "categories": [
+    "nature"
+   ],
+   "description": "A sunrise viewpoint for mountain views.",
+   "cost": 50,
+   "cost_is_estimate": true,
+   "hours": 2,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 26.987,
+   "longitude": 88.279,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Batasia Loop",
+   "city": "Darjeeling",
+   "state": "West Bengal",
+   "categories": [
+    "nature",
+    "history"
+   ],
+   "description": "A railway loop with a war memorial and gardens.",
+   "cost": 50,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 27.017,
+   "longitude": 88.248,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Darjeeling Himalayan Railway",
+   "city": "Darjeeling",
+   "state": "West Bengal",
+   "categories": [
+    "culture",
+    "adventure"
+   ],
+   "description": "A heritage narrow-gauge steam railway.",
+   "cost": 1500,
+   "cost_is_estimate": true,
+   "hours": 2,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 27.041,
+   "longitude": 88.263,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Peace Pagoda",
+   "city": "Darjeeling",
+   "state": "West Bengal",
+   "categories": [
+    "religious",
+    "nature"
+   ],
+   "description": "A white stupa with hill views.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 27.003,
+   "longitude": 88.264,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Himalayan Mountaineering Institute",
+   "city": "Darjeeling",
+   "state": "West Bengal",
+   "categories": [
+    "museums",
+    "adventure"
+   ],
+   "description": "A mountaineering institute with a museum.",
+   "cost": 100,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": null,
+   "longitude": null,
+   "coordinates_approximate": false,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Sundarbans National Park",
+   "city": "Sundarbans",
+   "state": "West Bengal",
+   "categories": [
+    "wildlife",
+    "nature",
+    "adventure"
+   ],
+   "description": "A mangrove delta explored by boat; known for tigers and birds.",
+   "cost": 1000,
+   "cost_is_estimate": true,
+   "hours": 8,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": null,
+   "longitude": null,
+   "coordinates_approximate": false,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Sajnekhali Watch Tower",
+   "city": "Sundarbans",
+   "state": "West Bengal",
+   "categories": [
+    "wildlife",
+    "nature"
+   ],
+   "description": "A viewing tower with a small museum.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": null,
+   "longitude": null,
+   "coordinates_approximate": false,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Jagannath Temple",
+   "city": "Puri",
+   "state": "Odisha",
+   "categories": [
+    "religious",
+    "culture",
+    "architecture"
+   ],
+   "description": "A major temple; entry rules apply.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 2,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 19.8048,
+   "longitude": 85.818,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Puri Beach",
+   "city": "Puri",
+   "state": "Odisha",
+   "categories": [
+    "nature",
+    "culture"
+   ],
+   "description": "A wide beach near the town.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 2,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 19.798,
+   "longitude": 85.826,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Chilika Lake",
+   "city": "Puri",
+   "state": "Odisha",
+   "categories": [
+    "nature",
+    "wildlife",
+    "adventure"
+   ],
+   "description": "A large brackish lagoon known for birds and boat trips.",
+   "cost": 1500,
+   "cost_is_estimate": true,
+   "hours": 5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 19.72,
+   "longitude": 85.32,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Raghurajpur Heritage Village",
+   "city": "Puri",
+   "state": "Odisha",
+   "categories": [
+    "culture",
+    "shopping"
+   ],
+   "description": "A village of artisans known for palm-leaf and cloth paintings.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 2,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": null,
+   "longitude": null,
+   "coordinates_approximate": false,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Lingaraj Temple",
+   "city": "Bhubaneswar",
+   "state": "Odisha",
+   "categories": [
+    "religious",
+    "architecture"
+   ],
+   "description": "A large medieval temple; non-Hindu entry is restricted.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 20.238,
+   "longitude": 85.8338,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Udayagiri and Khandagiri Caves",
+   "city": "Bhubaneswar",
+   "state": "Odisha",
+   "categories": [
+    "history",
+    "architecture"
+   ],
+   "description": "Ancient rock-cut caves on twin hills.",
+   "cost": 25,
+   "cost_is_estimate": true,
+   "hours": 2,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 20.263,
+   "longitude": 85.785,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Odisha State Museum",
+   "city": "Bhubaneswar",
+   "state": "Odisha",
+   "categories": [
+    "museums",
+    "history"
+   ],
+   "description": "A museum of regional art and archaeology.",
+   "cost": 10,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 20.253,
+   "longitude": 85.842,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Nandankanan Zoological Park",
+   "city": "Bhubaneswar",
+   "state": "Odisha",
+   "categories": [
+    "wildlife",
+    "nature"
+   ],
+   "description": "A zoo and botanical garden.",
+   "cost": 50,
+   "cost_is_estimate": true,
+   "hours": 3,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 20.398,
+   "longitude": 85.819,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Dhauli Shanti Stupa",
+   "city": "Bhubaneswar",
+   "state": "Odisha",
+   "categories": [
+    "religious",
+    "history"
+   ],
+   "description": "A peace stupa on a hill near ancient rock edicts.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 20.192,
+   "longitude": 85.838,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Konark Sun Temple",
+   "city": "Konark",
+   "state": "Odisha",
+   "categories": [
+    "history",
+    "architecture",
+    "religious"
+   ],
+   "description": "A chariot-shaped temple of intricate stonework.",
+   "cost": 40,
+   "cost_is_estimate": true,
+   "hours": 2,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 19.8876,
+   "longitude": 86.0945,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Chandrabhaga Beach",
+   "city": "Konark",
+   "state": "Odisha",
+   "categories": [
+    "nature"
+   ],
+   "description": "A beach near Konark, popular at sunrise.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 19.886,
+   "longitude": 86.126,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Konark Archaeological Museum",
+   "city": "Konark",
+   "state": "Odisha",
+   "categories": [
+    "museums",
+    "history"
+   ],
+   "description": "A museum of sculptures recovered from the temple.",
+   "cost": 10,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": null,
+   "longitude": null,
+   "coordinates_approximate": false,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Mahabodhi Temple",
+   "city": "Bodh Gaya",
+   "state": "Bihar",
+   "categories": [
+    "religious",
+    "history",
+    "architecture"
+   ],
+   "description": "The temple complex linked to the Buddha's enlightenment.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 2,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 24.6961,
+   "longitude": 84.9913,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Great Buddha Statue",
+   "city": "Bodh Gaya",
+   "state": "Bihar",
+   "categories": [
+    "religious"
+   ],
+   "description": "A very large seated Buddha statue.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 0.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 24.699,
+   "longitude": 84.989,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Dungeshwari Cave Temples",
+   "city": "Bodh Gaya",
+   "state": "Bihar",
+   "categories": [
+    "religious",
+    "history"
+   ],
+   "description": "Caves where the Buddha is said to have meditated.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": null,
+   "longitude": null,
+   "coordinates_approximate": false,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Bodh Gaya Archaeological Museum",
+   "city": "Bodh Gaya",
+   "state": "Bihar",
+   "categories": [
+    "museums",
+    "history"
+   ],
+   "description": "A small local museum.",
+   "cost": 5,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": null,
+   "longitude": null,
+   "coordinates_approximate": false,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Golghar",
+   "city": "Patna",
+   "state": "Bihar",
+   "categories": [
+    "history",
+    "architecture"
+   ],
+   "description": "A large beehive-shaped granary with city views.",
+   "cost": 10,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 25.617,
+   "longitude": 85.145,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Patna Museum",
+   "city": "Patna",
+   "state": "Bihar",
+   "categories": [
+    "museums",
+    "history"
+   ],
+   "description": "A museum with art and archaeology.",
+   "cost": 20,
+   "cost_is_estimate": true,
+   "hours": 2,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 25.61,
+   "longitude": 85.136,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Takht Sri Patna Sahib",
+   "city": "Patna",
+   "state": "Bihar",
+   "categories": [
+    "religious"
+   ],
+   "description": "A major Sikh shrine.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 25.619,
+   "longitude": 85.202,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Mahavir Mandir",
+   "city": "Patna",
+   "state": "Bihar",
+   "categories": [
+    "religious"
+   ],
+   "description": "A busy temple near the railway station.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 0.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 25.601,
+   "longitude": 85.138,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Hundru Falls",
+   "city": "Ranchi",
+   "state": "Jharkhand",
+   "categories": [
+    "nature",
+    "adventure"
+   ],
+   "description": "A waterfall outside the city, best seen after monsoon.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 2,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": null,
+   "longitude": null,
+   "coordinates_approximate": false,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Jagannath Temple Ranchi",
+   "city": "Ranchi",
+   "state": "Jharkhand",
+   "categories": [
+    "religious",
+    "architecture"
+   ],
+   "description": "A hilltop temple.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": null,
+   "longitude": null,
+   "coordinates_approximate": false,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Tagore Hill",
+   "city": "Ranchi",
+   "state": "Jharkhand",
+   "categories": [
+    "nature",
+    "history"
+   ],
+   "description": "A hill with a memorial and city views.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": null,
+   "longitude": null,
+   "coordinates_approximate": false,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Rock Garden Ranchi",
+   "city": "Ranchi",
+   "state": "Jharkhand",
+   "categories": [
+    "nature",
+    "culture"
+   ],
+   "description": "A landscaped park with carved rock features.",
+   "cost": 20,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": null,
+   "longitude": null,
+   "coordinates_approximate": false,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Mahant Ghasidas Memorial Museum",
+   "city": "Raipur",
+   "state": "Chhattisgarh",
+   "categories": [
+    "museums",
+    "history",
+    "culture"
+   ],
+   "description": "A regional museum of art and tribal culture.",
+   "cost": 10,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 21.237,
+   "longitude": 81.633,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Nandan Van Zoo and Safari",
+   "city": "Raipur",
+   "state": "Chhattisgarh",
+   "categories": [
+    "wildlife",
+    "nature"
+   ],
+   "description": "A zoo and safari park near the city.",
+   "cost": 50,
+   "cost_is_estimate": true,
+   "hours": 3,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": null,
+   "longitude": null,
+   "coordinates_approximate": false,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Purkhauti Muktangan",
+   "city": "Raipur",
+   "state": "Chhattisgarh",
+   "categories": [
+    "museums",
+    "culture"
+   ],
+   "description": "An open-air museum on tribal heritage.",
+   "cost": 20,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": null,
+   "longitude": null,
+   "coordinates_approximate": false,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Vivekananda Sarovar",
+   "city": "Raipur",
+   "state": "Chhattisgarh",
+   "categories": [
+    "nature"
+   ],
+   "description": "A lake with a statue and walkways.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": null,
+   "longitude": null,
+   "coordinates_approximate": false,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Rumtek Monastery",
+   "city": "Gangtok",
+   "state": "Sikkim",
+   "categories": [
+    "religious",
+    "culture",
+    "architecture"
+   ],
+   "description": "A large monastery outside the city.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 27.289,
+   "longitude": 88.564,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "MG Marg",
+   "city": "Gangtok",
+   "state": "Sikkim",
+   "categories": [
+    "shopping",
+    "food",
+    "culture"
+   ],
+   "description": "A pedestrian promenade for shopping and cafes.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 2,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 27.329,
+   "longitude": 88.613,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Tsomgo Lake",
+   "city": "Gangtok",
+   "state": "Sikkim",
+   "categories": [
+    "nature",
+    "adventure"
+   ],
+   "description": "A high-altitude lake; permit required for the trip.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 4,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 27.374,
+   "longitude": 88.764,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Enchey Monastery",
+   "city": "Gangtok",
+   "state": "Sikkim",
+   "categories": [
+    "religious"
+   ],
+   "description": "A small monastery above the city.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 27.338,
+   "longitude": 88.619,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Hanuman Tok",
+   "city": "Gangtok",
+   "state": "Sikkim",
+   "categories": [
+    "religious",
+    "nature"
+   ],
+   "description": "A hilltop temple with views.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 27.336,
+   "longitude": 88.635,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Kamakhya Temple",
+   "city": "Guwahati",
+   "state": "Assam",
+   "categories": [
+    "religious",
+    "architecture"
+   ],
+   "description": "A major Shakti temple on Nilachal Hill.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 2,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 26.1664,
+   "longitude": 91.7059,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Umananda Temple",
+   "city": "Guwahati",
+   "state": "Assam",
+   "categories": [
+    "religious",
+    "nature"
+   ],
+   "description": "A small temple on a river island.",
+   "cost": 10,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 26.196,
+   "longitude": 91.744,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Assam State Museum",
+   "city": "Guwahati",
+   "state": "Assam",
+   "categories": [
+    "museums",
+    "culture"
+   ],
+   "description": "A museum on regional heritage.",
+   "cost": 10,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 26.185,
+   "longitude": 91.747,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Pobitora Wildlife Sanctuary",
+   "city": "Guwahati",
+   "state": "Assam",
+   "categories": [
+    "wildlife",
+    "nature"
+   ],
+   "description": "A sanctuary known for one-horned rhinos.",
+   "cost": 300,
+   "cost_is_estimate": true,
+   "hours": 3,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": null,
+   "longitude": null,
+   "coordinates_approximate": false,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Kaziranga National Park",
+   "city": "Kaziranga",
+   "state": "Assam",
+   "categories": [
+    "wildlife",
+    "nature",
+    "adventure"
+   ],
+   "description": "A park known for one-horned rhinos, visited on jeep and elephant safaris.",
+   "cost": 1000,
+   "cost_is_estimate": true,
+   "hours": 4,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 26.5775,
+   "longitude": 93.1711,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Kakochang Waterfalls",
+   "city": "Kaziranga",
+   "state": "Assam",
+   "categories": [
+    "nature"
+   ],
+   "description": "A forest waterfall near the park.",
+   "cost": 20,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": null,
+   "longitude": null,
+   "coordinates_approximate": false,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Tawang Monastery",
+   "city": "Tawang",
+   "state": "Arunachal Pradesh",
+   "categories": [
+    "religious",
+    "culture",
+    "architecture"
+   ],
+   "description": "A large monastery with mountain views.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 27.5861,
+   "longitude": 91.8594,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Sela Pass",
+   "city": "Tawang",
+   "state": "Arunachal Pradesh",
+   "categories": [
+    "nature",
+    "adventure"
+   ],
+   "description": "A high mountain pass; road conditions are seasonal.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 27.5014,
+   "longitude": 92.105,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Nuranang Waterfall",
+   "city": "Tawang",
+   "state": "Arunachal Pradesh",
+   "categories": [
+    "nature"
+   ],
+   "description": "A tall waterfall on the way to Tawang.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": null,
+   "longitude": null,
+   "coordinates_approximate": false,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Tawang War Memorial",
+   "city": "Tawang",
+   "state": "Arunachal Pradesh",
+   "categories": [
+    "history"
+   ],
+   "description": "A memorial to soldiers of the 1962 war.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": null,
+   "longitude": null,
+   "coordinates_approximate": false,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Umiam Lake",
+   "city": "Shillong",
+   "state": "Meghalaya",
+   "categories": [
+    "nature",
+    "adventure"
+   ],
+   "description": "A reservoir lake with water sports.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 2,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 25.66,
+   "longitude": 91.89,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Elephant Falls",
+   "city": "Shillong",
+   "state": "Meghalaya",
+   "categories": [
+    "nature"
+   ],
+   "description": "A multi-tiered waterfall near the city.",
+   "cost": 20,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 25.543,
+   "longitude": 91.813,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Don Bosco Centre for Indigenous Cultures",
+   "city": "Shillong",
+   "state": "Meghalaya",
+   "categories": [
+    "museums",
+    "culture"
+   ],
+   "description": "A museum on the cultures of the North-East.",
+   "cost": 100,
+   "cost_is_estimate": true,
+   "hours": 2,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 25.574,
+   "longitude": 91.883,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Shillong Peak",
+   "city": "Shillong",
+   "state": "Meghalaya",
+   "categories": [
+    "nature"
+   ],
+   "description": "The highest point near the city with views.",
+   "cost": 20,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 25.533,
+   "longitude": 91.87,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Nohkalikai Falls",
+   "city": "Cherrapunji",
+   "state": "Meghalaya",
+   "categories": [
+    "nature"
+   ],
+   "description": "One of the tallest waterfalls in India.",
+   "cost": 20,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 25.259,
+   "longitude": 91.699,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Mawsmai Cave",
+   "city": "Cherrapunji",
+   "state": "Meghalaya",
+   "categories": [
+    "nature",
+    "adventure"
+   ],
+   "description": "A limestone cave with lit passages.",
+   "cost": 30,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 25.264,
+   "longitude": 91.74,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Double Decker Living Root Bridge",
+   "city": "Cherrapunji",
+   "state": "Meghalaya",
+   "categories": [
+    "nature",
+    "culture",
+    "adventure"
+   ],
+   "description": "A bridge grown from tree roots, reached by a long stair trek.",
+   "cost": 80,
+   "cost_is_estimate": true,
+   "hours": 4,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 25.25,
+   "longitude": 91.679,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Seven Sisters Falls",
+   "city": "Cherrapunji",
+   "state": "Meghalaya",
+   "categories": [
+    "nature"
+   ],
+   "description": "A wide waterfall that is best viewed after rain.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 25.263,
+   "longitude": 91.733,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Loktak Lake",
+   "city": "Imphal",
+   "state": "Manipur",
+   "categories": [
+    "nature",
+    "wildlife",
+    "culture"
+   ],
+   "description": "A large lake with floating islands.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 3,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 24.52,
+   "longitude": 93.8,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Kangla Fort",
+   "city": "Imphal",
+   "state": "Manipur",
+   "categories": [
+    "history",
+    "culture"
+   ],
+   "description": "A historic palace site with temples.",
+   "cost": 20,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 24.815,
+   "longitude": 93.948,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Ima Keithel",
+   "city": "Imphal",
+   "state": "Manipur",
+   "categories": [
+    "shopping",
+    "culture"
+   ],
+   "description": "A market run by women traders.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 24.806,
+   "longitude": 93.937,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Shri Govindajee Temple",
+   "city": "Imphal",
+   "state": "Manipur",
+   "categories": [
+    "religious"
+   ],
+   "description": "A major Vaishnav temple.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 24.82,
+   "longitude": 93.95,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "INA Memorial Moirang",
+   "city": "Imphal",
+   "state": "Manipur",
+   "categories": [
+    "history",
+    "museums"
+   ],
+   "description": "A memorial and museum on the Indian National Army.",
+   "cost": 10,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 24.498,
+   "longitude": 93.766,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Mizoram State Museum",
+   "city": "Aizawl",
+   "state": "Mizoram",
+   "categories": [
+    "museums",
+    "culture"
+   ],
+   "description": "A museum on the culture of the Mizo people.",
+   "cost": 10,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": null,
+   "longitude": null,
+   "coordinates_approximate": false,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Solomon's Temple",
+   "city": "Aizawl",
+   "state": "Mizoram",
+   "categories": [
+    "religious",
+    "architecture"
+   ],
+   "description": "A large modern church.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": null,
+   "longitude": null,
+   "coordinates_approximate": false,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Durtlang Hills",
+   "city": "Aizawl",
+   "state": "Mizoram",
+   "categories": [
+    "nature"
+   ],
+   "description": "A hill area with views of the city.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": null,
+   "longitude": null,
+   "coordinates_approximate": false,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Reiek Heritage Village",
+   "city": "Aizawl",
+   "state": "Mizoram",
+   "categories": [
+    "nature",
+    "culture",
+    "adventure"
+   ],
+   "description": "A hill village and trek area.",
+   "cost": 20,
+   "cost_is_estimate": true,
+   "hours": 3,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": null,
+   "longitude": null,
+   "coordinates_approximate": false,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Kohima War Cemetery",
+   "city": "Kohima",
+   "state": "Nagaland",
+   "categories": [
+    "history"
+   ],
+   "description": "A memorial garden for soldiers of WWII.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 25.663,
+   "longitude": 94.104,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Kisama Heritage Village",
+   "city": "Kohima",
+   "state": "Nagaland",
+   "categories": [
+    "culture",
+    "museums"
+   ],
+   "description": "Venue of the annual Hornbill Festival with traditional houses.",
+   "cost": 20,
+   "cost_is_estimate": true,
+   "hours": 2,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 25.642,
+   "longitude": 94.105,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Dzukou Valley",
+   "city": "Kohima",
+   "state": "Nagaland",
+   "categories": [
+    "nature",
+    "adventure"
+   ],
+   "description": "A high valley known for trekking and flowers in season.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 8,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 25.553,
+   "longitude": 94.071,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Nagaland State Museum",
+   "city": "Kohima",
+   "state": "Nagaland",
+   "categories": [
+    "museums",
+    "culture"
+   ],
+   "description": "A museum on Naga cultures.",
+   "cost": 10,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 25.66,
+   "longitude": 94.105,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Ujjayanta Palace",
+   "city": "Agartala",
+   "state": "Tripura",
+   "categories": [
+    "history",
+    "architecture",
+    "museums"
+   ],
+   "description": "A former royal palace housing a museum.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 23.835,
+   "longitude": 91.282,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Neermahal",
+   "city": "Agartala",
+   "state": "Tripura",
+   "categories": [
+    "history",
+    "architecture",
+    "nature"
+   ],
+   "description": "A palace in the middle of a lake, reached by boat.",
+   "cost": 20,
+   "cost_is_estimate": true,
+   "hours": 2,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 23.511,
+   "longitude": 91.301,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Tripura Sundari Temple",
+   "city": "Agartala",
+   "state": "Tripura",
+   "categories": [
+    "religious"
+   ],
+   "description": "A major Shakti temple at Udaipur town.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 23.488,
+   "longitude": 91.484,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Heritage Park Agartala",
+   "city": "Agartala",
+   "state": "Tripura",
+   "categories": [
+    "nature",
+    "culture"
+   ],
+   "description": "A themed park on regional heritage.",
+   "cost": 20,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": null,
+   "longitude": null,
+   "coordinates_approximate": false,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Cellular Jail",
+   "city": "Port Blair",
+   "state": "Andaman and Nicobar Islands",
+   "categories": [
+    "history",
+    "museums"
+   ],
+   "description": "A colonial-era prison with a light and sound show.",
+   "cost": 30,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 11.674,
+   "longitude": 92.748,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Ross Island",
+   "city": "Port Blair",
+   "state": "Andaman and Nicobar Islands",
+   "categories": [
+    "history",
+    "nature"
+   ],
+   "description": "Ruins on a small island reached by ferry.",
+   "cost": 50,
+   "cost_is_estimate": true,
+   "hours": 2,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 11.677,
+   "longitude": 92.764,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Radhanagar Beach (Havelock)",
+   "city": "Port Blair",
+   "state": "Andaman and Nicobar Islands",
+   "categories": [
+    "nature",
+    "adventure"
+   ],
+   "description": "A wide white-sand beach on Havelock Island, reached by ferry.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 3,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 11.982,
+   "longitude": 92.951,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Corbyn's Cove Beach",
+   "city": "Port Blair",
+   "state": "Andaman and Nicobar Islands",
+   "categories": [
+    "nature",
+    "adventure"
+   ],
+   "description": "A beach near Port Blair for swimming and water sports.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 11.646,
+   "longitude": 92.751,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Samudrika Naval Maritime Museum",
+   "city": "Port Blair",
+   "state": "Andaman and Nicobar Islands",
+   "categories": [
+    "museums",
+    "nature"
+   ],
+   "description": "A museum about marine life and the islands.",
+   "cost": 30,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 11.658,
+   "longitude": 92.739,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Agatti Island Lagoon",
+   "city": "Agatti",
+   "state": "Lakshadweep",
+   "categories": [
+    "nature",
+    "adventure"
+   ],
+   "description": "A lagoon for snorkelling and water sports; permit needed to visit the islands.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 4,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": null,
+   "longitude": null,
+   "coordinates_approximate": false,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Bangaram Atoll",
+   "city": "Agatti",
+   "state": "Lakshadweep",
+   "categories": [
+    "nature",
+    "adventure"
+   ],
+   "description": "An uninhabited-style coral island known for diving.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 4,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": null,
+   "longitude": null,
+   "coordinates_approximate": false,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Kavaratti Marine Aquarium",
+   "city": "Agatti",
+   "state": "Lakshadweep",
+   "categories": [
+    "nature",
+    "museums"
+   ],
+   "description": "A small aquarium showing local marine life.",
+   "cost": 20,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": null,
+   "longitude": null,
+   "coordinates_approximate": false,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Promenade Beach",
+   "city": "Puducherry",
+   "state": "Puducherry",
+   "categories": [
+    "nature",
+    "culture"
+   ],
+   "description": "A seafront walkway in the French Quarter.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 11.934,
+   "longitude": 79.834,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Auroville Matrimandir",
+   "city": "Puducherry",
+   "state": "Puducherry",
+   "categories": [
+    "culture",
+    "religious",
+    "architecture"
+   ],
+   "description": "A golden spherical meditation space; viewing by pass.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 2,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 12.007,
+   "longitude": 79.81,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Paradise Beach",
+   "city": "Puducherry",
+   "state": "Puducherry",
+   "categories": [
+    "nature"
+   ],
+   "description": "A quiet beach reached by a short boat ride.",
+   "cost": 100,
+   "cost_is_estimate": true,
+   "hours": 2,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 11.897,
+   "longitude": 79.811,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Sri Aurobindo Ashram",
+   "city": "Puducherry",
+   "state": "Puducherry",
+   "categories": [
+    "religious",
+    "culture"
+   ],
+   "description": "A spiritual centre in the old town.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 1,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 11.935,
+   "longitude": 79.833,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  },
+  {
+   "name": "Basilica of the Sacred Heart of Jesus",
+   "city": "Puducherry",
+   "state": "Puducherry",
+   "categories": [
+    "religious",
+    "architecture"
+   ],
+   "description": "A Gothic-style church.",
+   "cost": 0,
+   "cost_is_estimate": true,
+   "hours": 0.5,
+   "hours_is_estimate": true,
+   "rating": null,
+   "latitude": 11.926,
+   "longitude": 79.83,
+   "coordinates_approximate": true,
+   "source": "sample_dataset",
+   "verified": false
+  }
+ ]
+}

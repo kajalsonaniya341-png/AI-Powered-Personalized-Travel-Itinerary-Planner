@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI-Powered Personalized Travel Itinerary Planner</title>
+  <meta name="description" content="Plan Smarter. Travel Better. Personalized day-wise itineraries for destinations across India.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Crect width='48' height='48' rx='11' fill='%230e6b63'/%3E%3Cpath d='M24 8c5 4 8 8 9 13H15c1-5 4-9 9-13zM13 22h22v14H13z' fill='white'/%3E%3Crect x='9' y='36' width='30' height='4' fill='%23f6c453'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="#/" aria-label="Home">
+      <span class="logo" aria-hidden="true"><svg viewBox="0 0 48 48" aria-hidden="true" fill="none">
+        <circle cx="24" cy="6.2" r="1.7" fill="#f6c453"/><path d="M24 7.6v3" stroke="#f6c453" stroke-width="1.6" stroke-linecap="round"/>
+        <path d="M24 10.5c4 3.2 6.4 6.6 7 10.6H17c.6-4 3-7.4 7-10.6z" fill="#fff"/>
+        <path d="M24 17c5 3.8 8.2 8.4 9 13.4H15c.8-5 4-9.6 9-13.4z" fill="#fff" fill-opacity=".92"/>
+        <rect x="12" y="30" width="24" height="9" rx="1" fill="#fff"/>
+        <path d="M20.5 39v-5.5a3.5 3.5 0 0 1 7 0V39z" fill="#0e6b63"/>
+        <rect x="8" y="39" width="32" height="3" rx="1.5" fill="#f6c453"/><rect x="10.5" y="42" width="27" height="2.2" rx="1" fill="#fff" fill-opacity=".7"/>
+      </svg></span>
+      <span class="brand-text">AI-Powered Personalized<br>Travel Itinerary Planner<small>Incredible India, planned for you</small></span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
+    <nav id="navLinks" class="nav-links"></nav>
+  </header>
+
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+  <main id="app" tabindex="-1"></main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div>
+        <strong>AI-Powered Personalized Travel Itinerary Planner</strong>
+        <p>Personalized, budget-aware trip planning. Attraction data is a sample dataset: costs are estimates and not officially verified.</p>
+      </div>
+      <div>
+        <a href="#/">Home</a> &middot; <a href="#/plan">Plan a Trip</a> &middot; <a href="#/trips">My Trips</a>
+        &middot; <a href="/docs" target="_blank" rel="noopener">API Docs</a>
+      </div>
+    </div>
+    <p class="footer-credit">Map data &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors.</p>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="/js/app.js"></script>
+</body>
+</html>
